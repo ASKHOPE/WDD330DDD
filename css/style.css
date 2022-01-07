@@ -1,113 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Titillium+Web:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Titillium+Web:wght@200&display=swap");
 
 :root {
-    --royal-blue: #0C2D48;
-    --african-violet: #b78dccff;
-    --cornsilk: #B1D4E0;
-    --metallic-seaweed: #2a7f87ff;
-    --charcoal: #1c3b4cff;
+  --royal-blue: #0c2d48;
+  --light-violet: #b78dccff;
+  --light-blue: #b1d4e0;
+
 }
 
 body {
-    margin: auto;
-    width: 50%;
+  margin: auto;
+  width: 50%;
 }
 
 #content {
-    max-width: 600px;
-    grid-template-rows: 2fr 3fr 1fr;
-    background-color: var(--cornsilk);
-    /* Cornsilk */
-    margin: auto;
+  max-width: 600px;
+  grid-template-rows: 2fr 3fr 1fr;
+  background-color: var(--light-blue);
+  margin: auto;
 }
 
 header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    margin-top: 1em;
-    align-items: center;
-    justify-items: center;
-    background-color: var(--royal-blue);
-    color: white;
-    border-radius: 3px;
-    box-shadow: 5px 5px 5px grey;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-top: 1em;
+  align-items: center;
+  justify-items: center;
+  background-color: var(--royal-blue);
+  color: white;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
-    /*font-family: Montserrat, Arial, Helvetica, sans-serif;*/
-    color: white;
-    margin-left: 15px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin-left: 15px;
 }
 
 .intro-box {
-    display: flex;
-    align-items: center;
-    justify-items: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
 }
 
 main {
-    margin: 20px;
+  margin: 20px;
 }
 
 .headline1 {
-    font-family: 'Titillium Web', sans-serif;
-    /*font-family: Oswald, Arial, Helvetica, sans-serif;*/
-    margin-bottom: -10px;
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: -10px;
 }
 
-hr.divider-line {
-    border-top: 1px solid darkslategray;
+hr.seperator-line {
+  border-top: 1px solid var(--royal-blue);
 }
 
 .lesson-list {
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: bold;
-    /*font-family: Oswald, Arial, Helvetica, sans-serif;*/
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
 }
 
 ul {
-    list-style-type: disc;
-    color: var(--royal-blue);
+  list-style-type: disc;
+  color: var(--royal-blue);
 }
 
 a {
-    font-family: 'Titillium Web', sans-serif;
-    /*font-family: Oswald, Arial, Helvetica, sans-serif;*/
-    font-weight: bolder;
-    font-size: 14pt;
-    color: purple;
-    margin-left: 5px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bolder;
+  font-size: 14pt;
+  color: purple;
+  margin-left: 5px;
 }
 
 a:hover {
-    color: #b78dccff;
+  color: var(--light-violet);
 }
 
 footer {
-    display: grid;
-    justify-items: center;
-    background-color: var(--royal-blue);
-    color: white;
-    border-radius: 3px;
-    box-shadow: 5px 5px 5px grey;
-    padding: 20px;
-    padding: 10px;
+  display: grid;
+  justify-items: center;
+  background-color: var(--royal-blue);
+  color: white;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+  padding: 10px;
 }
 
-.copyrights-footer {
-    font-family: 'Raleway', sans-serif;
-    /*font-family: Montserrat, Arial, Helvetica, sans-serif;*/
-    margin-top: 10px;
+.copyrights {
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
 }
 
-.lastupdated-footer {
-    font-family: 'Titillium Web', sans-serif;
-    /*font-family: Oswald, Arial, Helvetica, sans-serif;*/
-    margin-top: -10px;
+.last-updated {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: -10px;
 }
 
 img {
-    border-radius: 2px;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 475px) {
+  .intro-box {
+    flex-direction:column;
+  }
 }
