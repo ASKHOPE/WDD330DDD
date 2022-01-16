@@ -26,4 +26,8 @@
     grid-row: 1 / end;
   }
 
+  #set-3 {
+    grid-column: 3 / end;
+    align-self: stretch;
+  }
 }
