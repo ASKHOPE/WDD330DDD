@@ -1,26 +1,19 @@
 @media only screen and (min-width: 32.5rem) {
-    main {
-        margin: 1em 2em;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr 1.5fr;
-        grid-column-gap: 8px;
-        align-items: stretch;
-    }
+  main {
+    margin: 1em 2em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1.5fr;
+    grid-column-gap: 8px;
+    align-items: stretch;
+  }
 
-    #principle-1, #principle-2, #principle-3{
-        align-self: stretch;
-    }
+  #set-1,
+  #set-2,
+  #set-3 {
+    align-self: stretch;
+  }
 
-    #principle-3 {
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-
-    
-    
-    section {
-        text-align: center;
-        border-radius: 15px;
-    }
-
+  section {
+    text-align: center;
+  }
 }

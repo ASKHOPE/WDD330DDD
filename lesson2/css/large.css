@@ -1,20 +1,29 @@
 @media only screen and (min-width: 800px) {
-    main{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 1fr;
-        grid-row-gap: 1rem;
-        align-items: center;
-        margin: 2em 5em;
-       
-    }
+  main {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-row-gap: 1rem;
+    align-items: center;
+  }
 
-    #principle-1, #principle-2, #principle-3{
-        grid-row: 1/end;
-    }
+  a.shopify {
+      padding-top: 25px;
+  }
 
-    #principle-3{
-        grid-column: 3/end;
-        align-self: stretch;
-    }
+  img.im1 {
+    padding-top: 25px;
+  }
+  img.im2 {
+      padding-top: 3px;
+  }
+  img.im3 {
+      padding-top: 25px;
+  }
+
+  #set-1,
+  #set-2,
+  #set-3 {
+    grid-row: 1 / end;
+  }
 
 }

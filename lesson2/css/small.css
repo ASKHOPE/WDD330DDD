@@ -11,7 +11,7 @@ body {
 }
 
 #content {
-  background-color: var(--light-blue); /* Cornsilk */
+  background-color: var(--light-blue); 
   margin: auto;
 }
 
@@ -81,31 +81,20 @@ section {
   background-color: var(--royal-blue);
   color: white;
   box-shadow: 5px 5px 5px grey;
-  padding: 1em;
+  padding: 8px;
+  border-radius: 3px;
 }
 p {
   font-family: "Titillium Web", sans-serif;
 }
-p.web-title {
-  margin: auto;
-}
-
-a.shopify {
-  margin: auto;
-}
 
 section a {
   font-family: "Titillium Web", sans-serif;
-
   font-size: 14pt;
   color: var(--light-violet);
-  margin-left: 0;
+
 }
 
-img {
-  width: 100%;
-  margin-top: 15px;
-}
 
 footer {
   display: grid;
