@@ -155,7 +155,7 @@ footer {
   margin-top: auto;
 }
 
-a.avoid {
+a.norefer {
   padding: 0;
 }
 a.avoided:hover {
