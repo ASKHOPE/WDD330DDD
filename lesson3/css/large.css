@@ -4,13 +4,15 @@
   }
 
   body {
-    max-width: 1111px;
+    max-width: 960px;
     margin: 0 auto;
     height:100vh;
     display: flex;
     flex-direction: column;
-  }
+    box-shadow: 2px 2px 12px 0px grey;
+}
+  
   footer {
-    margin-top:auto
+    margin-top:auto;
   }
 }
