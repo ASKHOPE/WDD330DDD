@@ -90,3 +90,15 @@ footer {
   padding: 1rem;
   justify-content: center;
 }
+
+
+  body {
+    max-width: 1111px;
+    margin: 0 auto;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    margin-top:auto
+  }
