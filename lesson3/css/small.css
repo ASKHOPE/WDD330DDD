@@ -2,14 +2,32 @@
 
 :root {
   /* Color Scheme https://coolors.co/241623-d0cd94-3c787e-c7ef00-d56f3e */
-  --dark-purple: #241623;
-  --sage: #d0cd94;
   --ming: #3c787e;
-  --arctic-lime: #c7ef00;
+  --sage: #d0cd94;
   --chocolate-web: #d56f3e;
+  --dark-purple: #241623;
+  --arctic-lime: #c7ef00;
 
   --header-font: "Josefin Sans", sans-serif;
   --paragraph-font: "Jura", sans-serif;
+  --primary-color: var(--ming);
+  --secondary-color: var(--sage);
+  --accent1-color: var(--chocolate-web);
+  --accent2-color: var(--dark-purple);
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+.secondary {
+  background-color: var(--secondary-color);
+}
+.accent1 {
+  background-color: var(--accent1-color);
+}
+.accent2 {
+  background-color: var(--accent2-color);
+  color: white;
 }
 
 p.colored {
@@ -17,12 +35,11 @@ p.colored {
   color: var(--dark-purple);
 }
 
-
-p1{
+p1 {
   font-family: var(--header-font);
   font-size: 20pt;
 }
-h4{
+h4 {
   color: var(--ming);
   font-family: var(--header-font);
 }
@@ -106,18 +123,17 @@ footer {
   justify-content: center;
 }
 
+body {
+  max-width: 1111px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+}
 
-  body {
-    max-width: 1111px;
-    margin: 0 auto;
-    height:100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  footer {
-    margin-top:auto
-  }
-
-  a.avoid{
-	padding:0;
-  }
+a.avoid {
+  padding: 0;
+}
