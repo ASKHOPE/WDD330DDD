@@ -159,6 +159,7 @@ a.norefer {
   padding: 0;
 }
 a.avoided:hover {
-  background-color: var(--arctic-lime);
+  background-color: var(--sage);
   color: var(--dark-purple);
+  border-radius: 3px;
 }
