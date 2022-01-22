@@ -14,6 +14,20 @@
   --secondary-color: var(--sage);
   --accent1-color: var(--chocolate-web);
   --accent2-color: var(--dark-purple);
+
+  --headline-color-on-color: var(--dark-purple);
+  --paragraph-color-on-color: var(--dark-purple);
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
+td {
+  height: 70px;
 }
 
 .primary {
@@ -32,7 +46,7 @@
 
 p.colored {
   background-color: skyblue;
-  color: var(--dark-purple);
+  color: var(--paragraph-color-on-color);
 }
 
 p1 {
@@ -136,4 +150,8 @@ footer {
 
 a.avoid {
   padding: 0;
+}
+a.avoided:hover {
+  background-color: var(--arctic-lime);
+  color: var(--dark-purple);
 }
