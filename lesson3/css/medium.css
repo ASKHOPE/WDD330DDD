@@ -3,6 +3,11 @@
   nav ul{
 		flex-direction: row;
 	}
-  
+   footer.spacer-logo {
+    margin-top: 269px;
+  }
+  section.spacer-logo {
+    margin-bottom:79px;
+  }
 } 
   

@@ -6,14 +6,17 @@
   body {
     max-width: 960px;
     margin: 0 auto;
-    height:100vh;
+    
     display: flex;
-    flex-direction: column;
     box-shadow: 2px 2px 12px 0px grey;
     
 }
   
-  footer {
-    margin-top:auto;
+  footer.spacer-logo {
+    margin-top: 269px;
   }
+  section.spacer-logo {
+    margin-bottom:79px;
+  }
+
 }
