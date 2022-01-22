@@ -19,7 +19,7 @@
   --paragraph-color-on-color: var(--dark-purple);
 }
 
-main{
+main {
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -33,7 +33,7 @@ th {
 td {
   height: 70px;
 }
-tr{
+tr {
   text-align: center;
 }
 
@@ -54,6 +54,7 @@ tr{
 p.colored {
   background-color: skyblue;
   color: var(--paragraph-color-on-color);
+  margin-bottom: 22px;
 }
 
 p1 {
@@ -99,6 +100,7 @@ nav ul {
   background-color: var(--sage);
   text-decoration: none;
   margin: 0 auto;
+  padding-left: 0px;
 }
 
 .button {
@@ -134,10 +136,6 @@ li {
   padding: 5px;
 }
 
-body {
-  max-width: 960px;
-}
-
 footer {
   padding: 1rem;
   justify-content: center;
@@ -147,12 +145,8 @@ footer {
 body {
   max-width: 960px;
   margin: 0 auto;
-  height: 100vh;
   display: flex;
   flex-direction: column;
-}
-footer {
-  margin-top: auto;
 }
 
 a.norefer {
