@@ -1,0 +1,10 @@
+@media screen and (min-width: 800px) {
+  nav ul {
+    flex-direction: row;
+  }
+
+  body {
+    max-width: 1111px;
+	margin: 0 auto;
+  }
+}

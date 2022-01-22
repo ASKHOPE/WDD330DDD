@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jura:wght@300&display=swap");
+
+:root {
+  /* Color Scheme https://coolors.co/241623-d0cd94-3c787e-c7ef00-d56f3e */
+  --dark-purple: #241623;
+  --sage: #d0cd94;
+  --ming: #3c787e;
+  --arctic-lime: #c7ef00;
+  --chocolate-web: #d56f3e;
+
+  --header-font: "Josefin Sans", sans-serif;
+  --paragraph-font: "Jura", sans-serif;
+}
+
+header,
+footer {
+  background-color: var(--ming);
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+header {
+  font-family: var(--header-font);
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+h2 {
+  font-family: var(--header-font);
+  font-weight: bold;
+  color: var(--chocolate-web);
+}
+p,
+footer,
+nav ul {
+  font-family: var(--paragraph-font);
+  font-weight: bold;
+  font-size: 14pt;
+}
+nav ul {
+  background-color: var(--sage);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--sage);
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a:link,
+a:visited {
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  color: white;
+  padding: 14px 25px;
+  background-color: var(--dark-purple);
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  padding: 14px;
+}
+
+
+body{
+	max-width: 960px;
+}
+
+footer {
+  padding: 1rem;
+  justify-content: center;
+}
