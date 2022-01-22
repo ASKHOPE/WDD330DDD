@@ -57,7 +57,7 @@ p.colored {
   margin-bottom: 22px;
 }
 
-p1 {
+p.p1 {
   font-family: var(--header-font);
   font-size: 20pt;
 }
