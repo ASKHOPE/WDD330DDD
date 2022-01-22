@@ -33,6 +33,9 @@ th {
 td {
   height: 70px;
 }
+tr{
+  text-align: center;
+}
 
 .primary {
   background-color: var(--primary-color);
