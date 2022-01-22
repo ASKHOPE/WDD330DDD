@@ -157,3 +157,7 @@ a.avoided:hover {
   color: var(--dark-purple);
   border-radius: 3px;
 }
+
+ul.li {
+  font-family: var(--pargraph-font);
+}
