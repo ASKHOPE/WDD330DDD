@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jura:wght@300&display=swap");
+
+:root {
+  /* Color Scheme https://coolors.co/241623-d0cd94-3c787e-c7ef00-d56f3e */
+  --ming: #3c787e;
+  --sage: #d0cd94;
+  --chocolate-web: #d56f3e;
+  --dark-purple: #241623;
+  --arctic-lime: #c7ef00;
+
+  --header-font: "Josefin Sans", sans-serif;
+  --paragraph-font: "Jura", sans-serif;
+  
+  --primary-color: var(--ming);
+  --secondary-color: var(--sage);
+  --accent1-color: var(--chocolate-web);
+  --accent2-color: var(--dark-purple);
+
+  --headline-color-on-color: var(--dark-purple);
+  --paragraph-color-on-color: var(--dark-purple);
+}
