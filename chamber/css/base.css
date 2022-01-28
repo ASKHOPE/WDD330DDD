@@ -10,7 +10,7 @@
 
   --header-font: "Josefin Sans", sans-serif;
   --paragraph-font: "Jura", sans-serif;
-  
+
   --primary-color: var(--ming);
   --secondary-color: var(--sage);
   --accent1-color: var(--chocolate-web);
@@ -19,3 +19,181 @@
   --headline-color-on-color: var(--dark-purple);
   --paragraph-color-on-color: var(--dark-purple);
 }
+
+p{
+  font-family:var(--header-font);
+  font-weight: bold;
+  font: size 12px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr /1fr 2fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  align-items: center;
+  font-family: var(--header-font);
+  font-weight: bold;
+  font-size: 18px;
+  background-color: var(--ming);
+}
+
+.header-logo > img {
+  max-width: 80px;
+}
+
+.social-icons > a > img {
+  max-width: 40px;
+}
+
+.content-social {
+  grid-row: 1;
+  grid-column: 3;
+}
+
+.container-sitename > a {
+  grid-column: 2;
+  color:white;
+}
+
+/*---------------------------HAMBURGER NAV STARTS HERE---------------------------*/
+
+nav button {
+  /*margin: 0.2rem 2vw;*/
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color:var(--sage);
+}
+
+nav {
+  background-color: #eee;
+  grid-column: 4;
+  justify-self: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: #333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+#hamburburBtn span:nth-child(1) {
+  display: block;
+}
+#hamburburBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburburBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburburBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* ======================HAMBURBUR NAV ENDS HERE ====================== */
+
+.time-time{
+  text-align: center;
+  grid-column:1/5;
+  color: white;
+}
+
+
+
+
+
+/* ========== BODY BEGIN =================*/
+main > section, main > section.hero{
+  display:flex;
+  flex-direction: column;
+  border: 5px solid #eee;
+  text-align: left;
+  padding-bottom: 100px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+    padding-top: 11px;
+  padding-left: 12px;
+  
+}
+
+main > section.hero{
+  margin-top: 15px;
+}
+
+section.spotlight {
+  display:flex;
+  flex-direction: column;
+  border: 5px solid #eee;
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+section.spotlight > p {
+  border: 5px solid #eee;
+  padding-bottom: 100px;
+  margin: 1px;
+    padding-top: 11px;
+  padding-left: 12px;
+}
+
+/*========= BODY END =============*/
+
+
+/*====Footer Begin =============*/
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--header-font);
+  font-weight: bold;
+  font-size: 14px;
+  background-color: var(--ming);
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  color:white;
+}
+footer > div{
+  padding-bottom: 10px;
+}
+
+.footer-logo > img {
+  width: 200px;
+  padding-top: 5px;
+}
+
+hr{
+  margin: 15px;
+  width: 75%;
+  opacity:75%;
+}
+
+/* ====Footer Ends ==== */
