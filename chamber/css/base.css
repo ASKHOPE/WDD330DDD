@@ -28,7 +28,7 @@ p {
 
 header {
   display: grid;
-  grid-template-rows: 1fr 0.5fr;
+  /*grid-template-rows: 1fr 0.5fr;*/
   align-items: center;
   font-family: var(--header-font);
   font-weight: bold;
@@ -48,12 +48,7 @@ header {
   grid-row: 1;
   grid-column: 3;
 }
-/*
-.container-sitename > a {
-  grid-column: 2/5;
-  color:white;
-}
-*/
+
 
 .container-sitename > a {
   text-decoration: none;
@@ -182,13 +177,12 @@ footer > div {
 }
 
 .footer-logo > img {
-  width: 200px;
-  padding-top: 5px;
+  width: 180px;
+  padding-top: 5%;
 }
 
 hr {
   margin: 15px;
-  width: 75%;
   opacity: 75%;
 }
 
