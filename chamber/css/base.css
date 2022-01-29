@@ -20,15 +20,14 @@
   --paragraph-color-on-color: var(--dark-purple);
 }
 
-p{
-  font-family:var(--header-font);
+p {
+  font-family: var(--header-font);
   font-weight: bold;
   font: size 12px;
 }
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr /1fr 2fr 1fr;
   grid-template-rows: 1fr 0.5fr;
   align-items: center;
   font-family: var(--header-font);
@@ -41,7 +40,7 @@ header {
   max-width: 80px;
 }
 
-.social-icons > a > img {
+.social-icons > img {
   max-width: 40px;
 }
 
@@ -49,24 +48,27 @@ header {
   grid-row: 1;
   grid-column: 3;
 }
-
+/*
 .container-sitename > a {
-  grid-column: 2;
+  grid-column: 2/5;
   color:white;
 }
+*/
 
+.container-sitename > a {
+  text-decoration: none;
+}
 /*---------------------------HAMBURGER NAV STARTS HERE---------------------------*/
 
 nav button {
-  /*margin: 0.2rem 2vw;*/
   background: transparent;
   border: none;
   font-size: 2rem;
-  color:var(--sage);
+  color: var(--sage);
 }
 
 nav {
-  background-color: #eee;
+  background-color: transparent;
   grid-column: 4;
   justify-self: center;
 }
@@ -81,7 +83,7 @@ nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
   text-decoration: none;
-  color: #333;
+  color: white;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -117,36 +119,32 @@ nav ul.open {
 
 /* ======================HAMBURBUR NAV ENDS HERE ====================== */
 
-.time-time{
+.time-time {
   text-align: center;
-  grid-column:1/5;
+  grid-column: 4/8;
   color: white;
 }
 
-
-
-
-
 /* ========== BODY BEGIN =================*/
-main > section, main > section.hero{
-  display:flex;
+main > section,
+main > section.hero {
+  display: flex;
   flex-direction: column;
   border: 5px solid #eee;
   text-align: left;
   padding-bottom: 100px;
   margin-top: 2px;
   margin-bottom: 2px;
-    padding-top: 11px;
+  padding-top: 11px;
   padding-left: 12px;
-  
 }
 
-main > section.hero{
+main > section.hero {
   margin-top: 15px;
 }
 
 section.spotlight {
-  display:flex;
+  display: flex;
   flex-direction: column;
   border: 5px solid #eee;
   padding: 10px;
@@ -158,15 +156,13 @@ section.spotlight > p {
   border: 5px solid #eee;
   padding-bottom: 100px;
   margin: 1px;
-    padding-top: 11px;
+  padding-top: 11px;
   padding-left: 12px;
 }
 
 /*========= BODY END =============*/
 
-
 /*====Footer Begin =============*/
-
 
 footer {
   display: flex;
@@ -179,9 +175,9 @@ footer {
   align-items: center;
   text-align: center;
   padding-bottom: 10px;
-  color:white;
+  color: white;
 }
-footer > div{
+footer > div {
   padding-bottom: 10px;
 }
 
@@ -190,10 +186,10 @@ footer > div{
   padding-top: 5px;
 }
 
-hr{
+hr {
   margin: 15px;
   width: 75%;
-  opacity:75%;
+  opacity: 75%;
 }
 
 /* ====Footer Ends ==== */
