@@ -28,7 +28,7 @@ p {
 
 header {
   display: grid;
-  /*grid-template-rows: 1fr 0.5fr;*/
+  grid-template-columns: auto auto auto auto;
   align-items: center;
   font-family: var(--header-font);
   font-weight: bold;
@@ -38,10 +38,12 @@ header {
 
 .header-logo > img {
   max-width: 80px;
+  grid-column: 1;
 }
 
 .social-icons > img {
-  max-width: 40px;
+  max-width: 40%;
+  grid-column: 3;
 }
 
 .content-social {
@@ -49,7 +51,9 @@ header {
   grid-column: 3;
 }
 
-
+.container-sitename {
+  grid-column: 2;
+}
 .container-sitename > a {
   text-decoration: none;
 }
