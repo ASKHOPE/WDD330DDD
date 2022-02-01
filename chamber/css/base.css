@@ -25,11 +25,13 @@ p {
   font-weight: bold;
   font-size: 12px;
 }
-
+h1{
+  font-size: 1em;
+}
 header {
   display: grid;
-  grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
-  /* grid-template-columns: auto auto auto auto; */
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 3fr 2fr;
   align-items: center;
   font-family: var(--header-font);
   font-weight: bold;
@@ -38,30 +40,36 @@ header {
 }
 
 .header-logo > img {
-  max-width: 80px;
+  margin-left: 10%;
+  margin-top: 5%;
+  max-width: 4em;
   grid-column: 1;
 }
 
-.social-icons > a > img {
+.social-icons > img {
   max-width: 2.5em;
-  grid-column: 3;
 }
 
 .social-icons{
-  display: flex;
+  display:flex;
+  flex-direction:row;
 }
 
 .content-social {
   grid-row: 1;
-  grid-column: 3;
+  grid-column: 8;
 }
 
 .container-sitename {
-  grid-column: 2;
+  grid-column: 2/5;
+  font-size: 1rem;
+  padding: 5px;
 }
 .container-sitename > a {
   text-decoration: none;
 }
+
+
 /*---------------------------HAMBURGER NAV STARTS HERE---------------------------*/
 
 nav button {
@@ -73,7 +81,7 @@ nav button {
 
 nav {
   background-color: transparent;
-  grid-column: 4;
+  grid-column: 10;
   justify-self: center;
 }
 
@@ -125,7 +133,7 @@ nav ul.open {
 
 .time-time {
   text-align: center;
-  grid-column: 2/4;
+  grid-column: span 10;
   color: white;
 }
 
