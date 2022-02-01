@@ -36,7 +36,7 @@ h1 > a {
 header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 3fr 2fr;
+  grid-template-rows: 2fr 1fr;
   align-items: center;
   font-family: var(--header-font);
   font-weight: bold;
@@ -76,6 +76,8 @@ header {
 
 
 /*---------------------------HAMBURGER NAV STARTS HERE---------------------------*/
+
+
 
 nav button {
   background: transparent;
