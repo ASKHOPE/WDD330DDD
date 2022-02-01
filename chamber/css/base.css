@@ -42,9 +42,13 @@ header {
   grid-column: 1;
 }
 
-.social-icons > img {
-  max-width: 40%;
+.social-icons > a > img {
+  max-width: 2.5em;
   grid-column: 3;
+}
+
+.social-icons{
+  display: flex;
 }
 
 .content-social {

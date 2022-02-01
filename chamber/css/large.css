@@ -39,8 +39,8 @@
     grid-column: 10;
   }
 
-  .social-icons > img {
-    max-width: 40%;
+  .social-icons > a> img {
+    max-width: 4rem;
   }
 
   /* === Check --*/

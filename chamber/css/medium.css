@@ -5,8 +5,8 @@
     padding-top: 5%;
   }
 
-  .social-icons {
-    max-width: 9em;
+  .social-icons > a > img{
+    max-width: 3em;
   }
 
   /* ABOSULTE 
