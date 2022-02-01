@@ -35,4 +35,5 @@ window.onresize = () => {
         navicron.classList.remove("open");
         hamburburBtn.classList.remove("open");
     }
+  
   }
