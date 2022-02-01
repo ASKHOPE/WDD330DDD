@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jura:wght@300&display=swap");
+
+:root {
+  /* Color Scheme https://coolors.co/241623-d0cd94-3c787e-c7ef00-d56f3e */
+  --ming: #3c787e;
+  --sage: #d0cd94;
+  --chocolate-web: #d56f3e;
+  --dark-purple: #241623;
+  --arctic-lime: #c7ef00;
+
+  --header-font: "Josefin Sans", sans-serif;
+  --paragraph-font: "Jura", sans-serif;
+
+  --primary-color: var(--ming);
+  --secondary-color: var(--sage);
+  --accent1-color: var(--chocolate-web);
+  --accent2-color: var(--dark-purple);
+
+  --headline-color-on-color: var(--dark-purple);
+  --paragraph-color-on-color: var(--dark-purple);
+}
+
+p {
+  font-family: var(--header-font);
+  font-weight: bold;
+  font-size: 12px;
+}
+h1 {
+  font-size: 1em;
+}
+
+h1 > a {
+  text-decoration: none;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  align-items: center;
+  font-family: var(--header-font);
+  font-weight: bold;
+  font-size: 18px;
+  background-color: var(--ming);
+}
+
+.header-logo > img {
+  margin-left: 10%;
+  margin-top: 5%;
+  max-width: 4em;
+  grid-column: 1;
+}
+
+.social-icons > img {
+  max-width: 2.5em;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-social {
+  grid-row: 1;
+  grid-column: 8;
+}
+
+.container-sitename {
+  grid-column: 2/5;
+  font-size: 1rem;
+  padding: 5px;
+}
+.container-sitename > a {
+  text-decoration: none;
+}
+
+/*---------------------------HAMBURGER NAV STARTS HERE---------------------------*/
+
+nav button {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--sage);
+}
+
+nav {
+  background-color: transparent;
+  grid-column: 10;
+  justify-self: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0.8rem 2vw;
+  text-decoration: none;
+  color: white;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+    display: block;
+    position: absolute;
+    top: 119px;
+    right: 2.5%;
+    width: 95%;
+    background: var(--sage);
+}
+
+
+#hamburburBtn span:nth-child(1) {
+  display: block;
+}
+#hamburburBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburburBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburburBtn.open span:nth-child(2) {
+  display: block;
+}
+
+/* ======================HAMBURBUR NAV ENDS HERE ====================== */
+
+.time-time {
+  text-align: center;
+  grid-column: span 10;
+  color: white;
+}
+
+/* ========== BODY BEGIN =================*/
+main > div,
+main > div.hero {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #eee;
+  text-align: left;
+  padding-bottom: 100px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 11px;
+  padding-left: 12px;
+}
+
+main > div.hero {
+  margin-top: 15px;
+}
+
+div.spotlight {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid #eee;
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 1px;
+}
+
+div.spotlight > p {
+  border: 5px solid #eee;
+  padding-bottom: 100px;
+  margin: 1px;
+  padding-top: 11px;
+  padding-left: 12px;
+}
+
+/*========= BODY END =============*/
+
+/*====Footer Begin =============*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--header-font);
+  font-weight: bold;
+  font-size: 14px;
+  background-color: var(--ming);
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+}
+footer > div {
+  padding-bottom: 10px;
+}
+
+.footer-logo > img {
+  width: 180px;
+  padding-top: 5%;
+}
+
+hr {
+  margin: 15px;
+  opacity: 75%;
+}
+
+/* ====Footer Ends ==== */
