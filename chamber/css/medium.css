@@ -29,6 +29,14 @@
   color: white;
   }
 
+  nav ul.open {
+    display: block;
+    position: absolute;
+    top: 119px;
+    right: 10px;
+    width: 98%;
+    background: var(--sage);
+  }
 
   /* ===============Grid Alignment Begins===============*/
   main > div.hero {

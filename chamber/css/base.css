@@ -25,13 +25,13 @@ p {
   font-weight: bold;
   font-size: 12px;
 }
-h1{
+h1 {
   font-size: 1em;
 }
 
 h1 > a {
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
 header {
   display: grid;
@@ -55,9 +55,9 @@ header {
   max-width: 2.5em;
 }
 
-.social-icons{
-  display:flex;
-  flex-direction:row;
+.social-icons {
+  display: flex;
+  flex-direction: row;
 }
 
 .content-social {
@@ -74,10 +74,7 @@ header {
   text-decoration: none;
 }
 
-
 /*---------------------------HAMBURGER NAV STARTS HERE---------------------------*/
-
-
 
 nav button {
   background: transparent;
@@ -118,9 +115,16 @@ nav ul li a:hover {
 nav ul {
   display: none;
 }
+
 nav ul.open {
-  display: block;
+    display: block;
+    position: absolute;
+    top: 119px;
+    right: 8px;
+    width: 95%;
+    background: var(--sage);
 }
+
 
 #hamburburBtn span:nth-child(1) {
   display: block;
