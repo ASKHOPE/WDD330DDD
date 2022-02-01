@@ -30,5 +30,9 @@ function toggleMenu() {
 const x = document.getElementById("hamburburBtn");
 x.onclick = toggleMenu;
 
-
-
+window.onresize = () => {
+    if (window.innerWidth > 1022) {
+        navicron.classList.remove("open");
+        hamburburBtn.classList.remove("open");
+    }
+  }

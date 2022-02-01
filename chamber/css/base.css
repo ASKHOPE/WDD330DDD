@@ -120,7 +120,7 @@ nav ul.open {
     display: block;
     position: absolute;
     top: 119px;
-    right: 8px;
+    right: 2.5%;
     width: 95%;
     background: var(--sage);
 }
