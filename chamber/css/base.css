@@ -28,6 +28,11 @@ p {
 h1{
   font-size: 1em;
 }
+
+h1 > a {
+    text-decoration: none;
+  }
+
 header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -138,8 +143,8 @@ nav ul.open {
 }
 
 /* ========== BODY BEGIN =================*/
-main > section,
-main > section.hero {
+main > div,
+main > div.hero {
   display: flex;
   flex-direction: column;
   border: 5px solid #eee;
@@ -151,11 +156,11 @@ main > section.hero {
   padding-left: 12px;
 }
 
-main > section.hero {
+main > div.hero {
   margin-top: 15px;
 }
 
-section.spotlight {
+div.spotlight {
   display: flex;
   flex-direction: column;
   border: 5px solid #eee;
@@ -164,7 +169,7 @@ section.spotlight {
   margin-bottom: 1px;
 }
 
-section.spotlight > p {
+div.spotlight > p {
   border: 5px solid #eee;
   padding-bottom: 100px;
   margin: 1px;
