@@ -1,5 +1,8 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 830px) {
   /* =========HEAD & NAV ========= */
+  html {
+    max-width: 100%;
+  }
   nav ul li a {
     color: white;
     padding: 0.5rem 1rem;
@@ -9,9 +12,9 @@
     font-size: 25px;
   }
 
-  h1{
+  h1 {
     margin-left: 5%;
-    }
+  }
 
   .header-logo > img {
     max-width: 7rem;
@@ -19,7 +22,6 @@
     padding-left: 0%;
     padding-top: 2%;
   }
-
 
   div.container-sitename {
     grid-column: 2/5;
@@ -39,20 +41,19 @@
     grid-column: 10;
   }
 
-  .social-icons > a> img {
+  .social-icons > a > img {
     max-width: 4rem;
   }
 
-
-  nav ul.open{
+  nav ul.open {
     display: none;
   }
 
-@media only screen and (min-width: 35rem){
-  nav ul.open {
-  display:none;
-  }}
-
+  @media only screen and (min-width: 35rem) {
+    nav ul.open {
+      display: none;
+    }
+  }
 
   /* === Check --*/
 
@@ -98,13 +99,17 @@
     grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
     grid-gap: 10px;
   }
-
+  body {
+    position: relative;
+  }
   /* =====================Body===================*/
 
   main {
+    max-width: 80%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   /* ===============Grid Alignment Begins===============*/
@@ -115,15 +120,20 @@
     padding: 0;
   }
 
-  img#smallhero{display: none;}
-  img#bighero{display:block;}
-  h1#h1w{
-    position:absolute;
-    font-size: 2.5em;
-    background-color: var(--sage)
+  img#smallhero {
+    display: none;
+  }
+  img#bighero {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  h1#h1w {
+    position: absolute;
+    font-size: 2em;
+    background-color: var(--sage);
   }
   h2#h2w {
-    
     position: absolute;
     margin-left: 68%;
     margin-top: 61%;
@@ -131,7 +141,6 @@
     background: var(--chocolate-web);
     border-radius: 27px;
   }
-  
 
   main > div.event {
     grid-row: 1;
@@ -141,6 +150,26 @@
   main > div.weather {
     grid-column: 1;
     grid-row: 2;
+    position: relative;
+    text-align: center;
+  }
+
+  img#logwe {
+    max-width: 50%;
+  }
+
+  div.weather > p#wedeg {
+    position: absolute;
+    margin-left: 51%;
+    margin-top: 25%;
+    font-size: 3em;
+  }
+
+  div.weather > p#wetype {
+    position: absolute;
+    margin-left: 51%;
+    margin-top: 52%;
+    font-weight: bold;
   }
 
   main > div.join {
@@ -157,12 +186,24 @@
     grid-column: 3;
   }
 
-  div.spotlight > p {
+  div.spotlight > section {
     border: 5px solid #eee;
-    padding-bottom: 40%;
+    padding-bottom: 0%;
     margin: 1px;
     padding-top: 11px;
     padding-left: 12px;
+  }
+
+  div.spotlight > section > p {
+    font-size: 15px;
+  }
+  div.spotlight > section > h2 {
+    font-size: 15px;
+  }
+
+  div.spotlight > section > img {
+    width: 50%;
+    margin-left: 22%;
   }
 
   main > div.spotlight {

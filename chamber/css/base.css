@@ -23,7 +23,6 @@
 p {
   font-family: var(--header-font);
   font-weight: bold;
-  font-size: 1.3rem;
 }
 h1 {
   font-size: 1em;
@@ -117,14 +116,13 @@ nav ul {
 }
 
 nav ul.open {
-    display: block;
-    position: absolute;
-    top: 119px;
-    right: 2.5%;
-    width: 95%;
-    background: var(--sage);
+  display: block;
+  position: absolute;
+  top: 119px;
+  right: 2.5%;
+  width: 95%;
+  background: var(--sage);
 }
-
 
 #hamburburBtn span:nth-child(1) {
   display: block;
@@ -155,36 +153,69 @@ main > div.hero {
   flex-direction: column;
   border: 5px solid #eee;
   text-align: left;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   margin-top: 2px;
   margin-bottom: 2px;
   padding-top: 11px;
   padding-left: 12px;
-  
 }
 
 main > div.hero {
   margin-top: 15px;
   padding-bottom: 0;
   position: relative;
-  padding:0;
+  padding: 0;
 }
 
-img#bighero{display: none;}
- h1#h1w{
-    position:absolute;
-    
-    background-color: var(--sage)
-  }
+img#bighero {
+  display: none;
+}
+h1#h1w {
+  position: absolute;
 
-  h2#h2w {
-    position: absolute;
-    margin-left: 25%;
-    margin-top: 33%;
-    padding: 0.5rem;
-    background: var(--chocolate-web);
-    border-radius: 27px;
-  }
+  background-color: var(--sage);
+}
+
+h2#h2w {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 33%;
+  padding: 0.5rem;
+  background: var(--chocolate-web);
+  border-radius: 27px;
+}
+
+div.event > p#eefo{
+  margin:20px;
+}
+
+div.weather > section {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  margin-left: 10%;
+}
+
+img#logwe {
+  max-width: 50%;
+}
+
+div.weather > p#wedeg {
+  position: absolute;
+  margin-left: 51%;
+  margin-top: 25%;
+  font-size: 3em;
+}
+
+div.weather > p#wetype {
+  position: absolute;
+  margin-left: 51%;
+  margin-top: 47%;
+  font-weight: bold;
+}
+
+div.join {
+  display: none;
+}
 
 div.spotlight {
   display: flex;
@@ -202,7 +233,21 @@ div.spotlight > p {
   padding-top: 11px;
   padding-left: 12px;
 }
+div.spotlight > section > img {
+  width: 58%;
+  margin-left: 22%;
+}
+div.spotlight > section > p {
+  text-align: center;
+}
 
+h2 {
+  text-align: center;
+  font-family: var(--header-font);
+}
+p {
+  font-family: var(--paragraph-font);
+}
 /*========= BODY END =============*/
 
 /*====Footer Begin =============*/

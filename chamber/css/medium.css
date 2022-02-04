@@ -4,12 +4,12 @@
     padding-top: 5%;
   }
 
-  h1{
+  h1 {
     margin-left: 8%;
-    font-size: 1.5em}
-  
+    font-size: 1.5em;
+  }
 
-  .social-icons > a> img {
+  .social-icons > a > img {
     max-width: 4rem;
   }
 
@@ -18,15 +18,15 @@
     grid-column: 8;
   }
 
-  nav{
+  nav {
     grid-column: 10;
     grid-row: 1;
   }
 
   .time-time {
-  text-align: center;
-  grid-column: 3/9;
-  color: white;
+    text-align: center;
+    grid-column: 3/9;
+    color: white;
   }
 
   nav ul.open {
@@ -39,6 +39,12 @@
   }
 
   /* ===============Grid Alignment Begins===============*/
+
+  /*main{
+    max-width: 80%;
+    margin: 0.5em auto;
+  }*/
+
   main > div.hero {
     grid-column: 1/4;
     margin-top: 0px;
