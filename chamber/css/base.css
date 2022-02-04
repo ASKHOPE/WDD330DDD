@@ -41,6 +41,11 @@ header {
   font-weight: bold;
   font-size: 18px;
   background-color: var(--ming);
+
+  width: 100%;
+    height: auto;
+    padding: 0.5em;
+    margin: 1px;
 }
 
 .header-logo > img {
@@ -127,6 +132,12 @@ nav ul.open {
 
 #hamburburBtn span:nth-child(1) {
   display: block;
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  padding: 0.2rem 0.5rem;
+  font-size: 2rem;
+  color: #fff;
 }
 #hamburburBtn span:nth-child(2) {
   display: none;
@@ -159,8 +170,9 @@ main > div.hero {
   margin-bottom: 2px;
   padding-top: 11px;
   padding-left: 12px;
-      height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
+     
 }
 
 main > div.hero {
@@ -168,11 +180,12 @@ main > div.hero {
   padding-bottom: 0;
   position: relative;
   padding: 0;
-  
+   margin: 7px;
 }
 img#smallhero {
   height: auto;
-    width: 100%;}
+  width: 100%;
+}
 
 img#bighero {
   display: none;
@@ -183,7 +196,9 @@ h1#h1w {
   background-color: var(--sage);
 }
 
-h2#wehide{display:none;}
+h2#wehide {
+  display: none;
+}
 
 h2#h2w {
   position: absolute;
@@ -264,7 +279,6 @@ p {
 footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: var(--header-font);
   font-weight: bold;
   font-size: 14px;
