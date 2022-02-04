@@ -44,6 +44,15 @@
     margin-top: 0px;
   }
 
+  h2#h2w {
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 35%;
+    padding: 2rem;
+    background: var(--chocolate-web);
+    border-radius: 27px;
+  }
+
   main > div.event {
     grid-row: 5;
     grid-column: 1/3;

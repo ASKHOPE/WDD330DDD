@@ -164,7 +164,26 @@ main > div.hero {
 
 main > div.hero {
   margin-top: 15px;
+  padding-bottom: 0;
+  position: relative;
+  padding:0;
 }
+
+img#bighero{display: none;}
+ h1#h1w{
+    position:absolute;
+    
+    background-color: var(--sage)
+  }
+
+  h2#h2w {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 33%;
+    padding: 0.5rem;
+    background: var(--chocolate-web);
+    border-radius: 27px;
+  }
 
 div.spotlight {
   display: flex;
