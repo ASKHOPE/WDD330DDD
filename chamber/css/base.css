@@ -159,6 +159,8 @@ main > div.hero {
   margin-bottom: 2px;
   padding-top: 11px;
   padding-left: 12px;
+      height: auto;
+    width: 100%;
 }
 
 main > div.hero {
@@ -166,7 +168,11 @@ main > div.hero {
   padding-bottom: 0;
   position: relative;
   padding: 0;
+  
 }
+img#smallhero {
+  height: auto;
+    width: 100%;}
 
 img#bighero {
   display: none;
