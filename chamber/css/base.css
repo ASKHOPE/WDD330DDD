@@ -183,6 +183,8 @@ h1#h1w {
   background-color: var(--sage);
 }
 
+h2#wehide{display:none;}
+
 h2#h2w {
   position: absolute;
   margin-left: 25%;
