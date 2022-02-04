@@ -214,6 +214,10 @@
     display: block;
   }
 
+  div.spotlight > section#s24 {
+    display: block;
+  }
+
   /* =====================Footer===================*/
   .footer-logo > img {
     width: 125px;
