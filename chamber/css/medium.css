@@ -100,6 +100,14 @@
 
   div.join {
     display: block;
+    height: 100;
+    width: 100%;
+   
+  }
+  div.join > section > h2#h2jw > a {
+     padding: 10px;
+    background-color: chocolate;
+    border-radius: 10px;
   }
 
   main > div.news {
