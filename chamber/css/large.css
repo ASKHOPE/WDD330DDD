@@ -130,12 +130,12 @@
     height: auto;
   }
   h1#h1w {
-    position: absolute;
+    /*position: absolute;*/
     font-size: 2em;
     background-color: var(--sage);
   }
   h2#h2w {
-    position: absolute;
+    position: relative;
     margin-left: 68%;
     margin-top: 61%;
     padding: 1em;
