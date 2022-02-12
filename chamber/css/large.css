@@ -9,7 +9,8 @@
     font-size: 1em;
   }
   header {
-    font-size: 25px;
+    padding: 0px;
+    font-size: 25px;  
   }
 
   h1 {

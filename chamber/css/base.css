@@ -34,17 +34,17 @@ h1 > a {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(10,1fr);
   grid-template-rows: 2fr 1fr;
   align-items: center;
   font-family: var(--header-font);
   font-weight: bold;
   font-size: 18px;
   background-color: var(--ming);
-
+ padding: 0px;
   width: 100%;
     height: auto;
-    padding: 0.5em;
+   /* padding: 0.5em; */
     margin: 1px;
 }
 
@@ -170,8 +170,6 @@ main > div.hero {
   margin-bottom: 2px;
   padding-top: 11px;
   padding-left: 12px;
-  height: auto;
-  width: 100%;
      
 }
 
@@ -180,7 +178,7 @@ main > div.hero {
   padding-bottom: 0;
   position: relative;
   padding: 0;
-   margin: 7px;
+   margin: 0px;
 }
 img#smallhero {
   height: auto;
