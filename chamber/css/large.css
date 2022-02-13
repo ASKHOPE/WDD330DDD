@@ -110,7 +110,8 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    grid-template-rows: 30% 40% 27%;
   }
 
   /* ===============Grid Alignment Begins===============*/
@@ -135,9 +136,9 @@
     background-color: var(--sage);
   }
   h2#h2w {
-    position: relative;
+    /*position: relative;
     margin-left: 68%;
-    margin-top: 61%;
+    margin-top: 61%;*/
     padding: 1em;
     background: var(--chocolate-web);
     border-radius: 27px;
