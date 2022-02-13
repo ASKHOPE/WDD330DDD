@@ -79,19 +79,32 @@
           alt="Rajahmundry River View large"
         /> -->
 
-        <source
-          media="(max-width: 33.9em)"
-          srcset="images/wdd230-org-Small.jpg"
-        />
-        <source
-          media="(max-width: 829px)"
-          srcset="images/wdd230-org-Medium.jpg"
-        />
-        <source
-          media="(max-width: 1400px)"
-          srcset="images/wdd230-org-Large.jpg"
-        />
-        <img src="images/wdd230-org-Large.jpg" alt="Two people talking" />
+        <picture>
+          <source
+            media="(max-width: 200px)"
+            srcset="images/wdd230wp-200.webp 200w"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 500px)"
+            srcset="images/wdd230wp-500.webp 500w"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 800px)"
+            srcset="images/wdd230wp-800.webp 800w"
+            type="image/webp"
+          />
+          <source
+            media="(max-width: 1200px)"
+            srcset="images/wdd230wp-800.webp 1200w"
+            type="image/webp"
+          />
+          <img
+            src="images/wdd230wp-1200.webp"
+            alt="Ugly Meeting"
+          />
+        </picture>
 
         <h2 id="h2w"><a href="#" target="_blank">Join the Chamber</a></h2>
       </div>

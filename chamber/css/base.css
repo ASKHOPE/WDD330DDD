@@ -34,18 +34,18 @@ h1 > a {
 
 header {
   display: grid;
-  grid-template-columns: repeat(10,1fr);
+  grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 2fr 1fr;
   align-items: center;
   font-family: var(--header-font);
   font-weight: bold;
   font-size: 18px;
   background-color: var(--ming);
- padding: 0px;
+  padding: 0px;
   width: 100%;
-    height: auto;
-   /* padding: 0.5em; */
-    margin: 1px;
+  height: auto;
+  /* padding: 0.5em; */
+  margin: 1px;
 }
 
 .header-logo > img {
@@ -62,6 +62,12 @@ header {
 .social-icons {
   display: flex;
   flex-direction: row;
+}
+@media only screen and (max-width: 390px) {
+  .social-icons {
+    flex-direction: column;
+    margin-left: 25%;
+  }
 }
 
 .content-social {
@@ -170,7 +176,6 @@ main > div.hero {
   margin-bottom: 2px;
   padding-top: 11px;
   padding-left: 12px;
-     
 }
 
 main > div.hero {
@@ -178,7 +183,12 @@ main > div.hero {
   padding-bottom: 0;
   position: relative;
   padding: 0;
-   margin: 0px;
+  margin: 0px;
+}
+
+
+main > div.hero > picture > img {
+  width: 100%;
 }
 img#smallhero {
   height: auto;
@@ -190,7 +200,7 @@ img#bighero {
 }
 h1#h1w {
   position: absolute;
-
+  margin-left: 60%;
   background-color: var(--sage);
 }
 
@@ -200,8 +210,8 @@ div.weather > section > h2#wehide {
 
 h2#h2w {
   position: absolute;
-  margin-left: 25%;
-  margin-top: 33%;
+  bottom: 6%;
+  right: 3%;
   padding: 0.5rem;
   background: var(--chocolate-web);
   border-radius: 27px;

@@ -9,7 +9,7 @@ if (t <= 50 && s > 3) {
     0.4275 * t * Math.pow(s, 0.16);
   document.querySelector("#windchill").innerHTML = `${Math.round(
     windchill
-  )}&#176;`;
+  )}&#176;F`;
 } else {
   document.querySelector("#windchill").innerHTML = "N/A";
 }
