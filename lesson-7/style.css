@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Titillium+Web:wght@200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Titillium+Web:wght@200&display=swap");
+
+:root {
+  --royal-blue: #0c2d48;
+  --light-violet: #b78dccff;
+  --light-blue: #b1d4e0;
+}
+
+body {
+  margin: auto;
+  width: 400px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-blue);
+  margin: auto;
+  width: 350px;
+}
+
+header {
+  display: grid;
+  justify-items: center;
+  background-color: var(--royal-blue);
+  color: white;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+  padding: 10px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.intro-box {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+main {
+  margin: 20px;
+}
+
+footer {
+  display: grid;
+  justify-items: center;
+  background-color: var(--royal-blue);
+  color: white;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px grey;
+  padding: 20px;
+  padding: 10px;
+}
+
+.copyright {
+  font-family: "Raleway", sans-serif;
+  margin-top: 10px;
+}
+
+.last-updated {
+  font-family: "Titillium Web", sans-serif;
+  margin-top: -10px;
+}
+div.last-updated {
+  padding: 10px;
+}
+
+img {
+  border-radius: 2px;
+}

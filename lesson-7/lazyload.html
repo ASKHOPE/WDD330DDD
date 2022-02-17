@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <title>Arnold Sujan Katru WDD230 Lesson 7: Progressive Loading of Images</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Lesson 7 activity submission of Arnold Sujan Katru WDD 230: Progressive Loading of Images">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Sansita&family=Bree" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1> WDD230: Progressive Loading of Images 🏍️</h1>
-  </header>
-  <main>
-    <img id="byu" src="images/placeholder.jpg" data-src="images/ducatipanigale.jpg" alt="Rich Italian 1100CC Superbike Ducati Panigale">
-    <p>Ducati Panigale</p>
-    <img id="phl" src="images/placeholder.jpg" data-src="images/hondacbr1000.jpg" alt="From the heart of Japan Honda CBR 1000CC">
-    <p>Honda CBR 1000</p>
-    <img id="moa" src="images/placeholder.jpg" data-src="images/yamahar1.jpg" alt="The Japanese Katana Yamaha R1 1000CC Superbike">
-    <p>Yamaha R1</p>
-    <img id="cct" src="images/placeholder.jpg" data-src="images/royalenfieldcontinentalgt.jpg" alt="Retro Cafe Racer Royal Enfield Continental GT 650CC">
-    <p>Royal Enfield Continental GT </p>
-    <img id="les" src="images/placeholder.jpg" data-src="images/ktm1290.jpg" alt="Street King of naked bikes 1290CC KTM superbike">
-    <p>KTM 1290</p>
-    <img id="yview" src="images/placeholder.jpg" data-src="images/kawasakininjah2.jpg" alt="The fastest bike ever built in 1000CC superbikes Kawasaki Ninja H2">
-    <p>Kawasaki Ninja H2</p>
-  </main>  
-  <footer>
+  <head>
+    <title>
+      Arnold Sujan Katru WDD230 Lesson 7: Progressive Loading of Images
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <meta
+      name="description"
+      content="Lesson 7 activity submission of Arnold Sujan Katru WDD 230: Progressive Loading of Images"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sansita&family=Bree"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WDD230: Progressive Loading of Images 🏍️</h1>
+    </header>
+    <main id="content">
+      <img
+        id="byu"
+        src="images/placeholder.jpg"
+        data-src="images/ducatipanigale.jpg"
+        alt="Rich Italian 1100CC Superbike Ducati Panigale"
+      />
+      <p>Ducati Panigale</p>
+      <img
+        id="phl"
+        src="images/placeholder.jpg"
+        data-src="images/hondacbr1000.jpg"
+        alt="From the heart of Japan Honda CBR 1000CC"
+      />
+      <p>Honda CBR 1000</p>
+      <img
+        id="moa"
+        src="images/placeholder.jpg"
+        data-src="images/yamahar1.jpg"
+        alt="The Japanese Katana Yamaha R1 1000CC Superbike"
+      />
+      <p>Yamaha R1</p>
+      <img
+        id="cct"
+        src="images/placeholder.jpg"
+        data-src="images/royalenfieldcontinentalgt.jpg"
+        alt="Retro Cafe Racer Royal Enfield Continental GT 650CC"
+      />
+      <p>Royal Enfield Continental GT</p>
+      <img
+        id="les"
+        src="images/placeholder.jpg"
+        data-src="images/ktm1290.jpg"
+        alt="Street King of naked bikes 1290CC KTM superbike"
+      />
+      <p>KTM 1290</p>
+      <img
+        id="yview"
+        src="images/placeholder.jpg"
+        data-src="images/kawasakininjah2.jpg"
+        alt="The fastest bike ever built in 1000CC superbikes Kawasaki Ninja H2"
+      />
+      <p>Kawasaki Ninja H2</p>
+    </main>
+    <footer>
       <div class="copyright">
-        &copy; <span id="currentyear"></span>  | Arnold Sujan Katru | Rajahmundry 
+        &copy; <span id="currentyear"></span> | Arnold Sujan Katru | India
       </div>
       <div class="last-updated">
         <p>Last Updated:<span id="currentdate"></span></p>
       </div>
     </footer>
-
-  <script src="js/script.js"></script>
-  <script src="./js/lazyload.js   "></script>
-  
-</body>
+    <script src="lazyscript.js"></script>
+  </body>
 </html>
