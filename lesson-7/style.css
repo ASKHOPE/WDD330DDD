@@ -3,56 +3,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Titillium+Web:wght@200&display=swap");
 
 :root {
-  --royal-blue: #0c2d48;
+  --royal-orange: #cf920c;
   --light-violet: #b78dccff;
-  --light-blue: #b1d4e0;
+  --loayal-green: #52bb69;
 }
 
 body {
   margin: auto;
   width: 400px;
+  background: radial-gradient(#4f555e, transparent);
 }
 
 #content {
   display: flex;
   flex-direction: column;
-  background-color: var(--light-blue);
+  background-color: var(--loayal-green);
   margin: auto;
   width: 350px;
 }
 
 header {
-  display: grid;
-  justify-items: center;
-  background-color: var(--royal-blue);
-  color: white;
+  background-color: var(--royal-orange);
   border-radius: 3px;
   box-shadow: 5px 5px 5px grey;
-  padding: 20px;
   padding: 10px;
 }
 
-h1 {
+h1,
+p,
+span,
+div {
   font-family: "Raleway", sans-serif;
-  color: white;
   text-align: center;
-}
-
-.intro-box {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-}
-
-main {
-  margin: 20px;
+  font-weight: bold;
 }
 
 footer {
   display: grid;
   justify-items: center;
-  background-color: var(--royal-blue);
-  color: white;
+  background-color: var(--royal-orange);
   border-radius: 3px;
   box-shadow: 5px 5px 5px grey;
   padding: 20px;
