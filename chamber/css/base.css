@@ -323,4 +323,19 @@ main.discover > span {
   margin: auto;
   font-family: var(--paragraph-font);
   font-weight: bold;
+  padding: 0;
+}
+
+main.discover > div.places > picture > img {
+  width: -webkit-fill-available;
+  padding: 0.5em;
+}
+main.discover > div.places {
+  padding: 0;
+}
+
+main.discover > div.places > p {
+  padding: 1em;
+  padding-top: 0;
+  margin: auto;
 }
