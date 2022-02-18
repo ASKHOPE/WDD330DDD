@@ -329,7 +329,23 @@ main.discover > span {
 main.discover > div.places > picture > img {
   width: -webkit-fill-available;
   padding: 0.5em;
+  transition: transform 2s ease-in-out;
+
 }
+
+main.discover > div.places > picture > img:hover {
+  transition: transform 2s ease-in-out;
+   position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+
 main.discover > div.places {
   padding: 0;
 }
