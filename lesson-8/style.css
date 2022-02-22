@@ -17,14 +17,18 @@ table {
   border-collapse: collapse;
 }
 
+td#exceeded{
+  background-color:rgb(98,140,166);
+  color:white;
+}
 caption {
   padding: 10px;
   caption-side: bottom;
   color: var(--back);
   font-size: 0.85rem;
 }
-tr {
-  font-family: Ubuntu;
+body {
+  font-family:'Ubuntu', sans-serif;
 }
 tr:first-child th {
   background-color: var(--back);
