@@ -21,6 +21,10 @@ td#exceeded{
   background-color:rgb(98,140,166);
   color:white;
 }
+td#itt{
+  font-style:italic;
+}
+
 caption {
   padding: 10px;
   caption-side: bottom;
