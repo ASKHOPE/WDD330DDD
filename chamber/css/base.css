@@ -30,7 +30,13 @@ h1 {
 
 h1 > a {
   text-decoration: none;
+  color:white;
 }
+
+h1 > a:hover{
+  color: var(--sage);
+}
+
 
 header {
   display: grid;
@@ -295,6 +301,16 @@ footer {
   padding-bottom: 10px;
   color: white;
 }
+
+footer > div.footer-site-contact > a {
+  text-decoration: none;  
+  color: white;
+}
+
+footer > div.footer-site-contact > a:hover{
+  color: var(--sage);
+}
+
 footer > div {
   padding-bottom: 10px;
 }
