@@ -183,9 +183,17 @@
     grid-row: 3;
   }
 
+
   main > div.spotlight {
     grid-row: 1/4;
     grid-column: 3;
+    border:0;
+  }
+
+  @media only screen and (min-width: 1589px) {
+    main > div.news{
+      border-top-width: 3em;
+    }
   }
 
   div.spotlight > section {
