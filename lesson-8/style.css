@@ -1,13 +1,13 @@
 :root {
-  --back: rgba(127, 185, 194, 255);
-  --back2: rgba(98, 140, 166, 255);
+  --back: rgb(127, 185, 194);
+  --back2: rgb(98, 140, 166);
   --foredark: hsla(0, 0%, 10%, 1);
   --forelight: black;
   --border: hsl(0, 0%, 20%);
   --borderlight: hsl(0, 0%, 33%);
-  --shadow: rgba(127,161,182,255);
-  --zebra: rgba(231, 255, 237, 255);
-  --odd:rgba(231,240,237,255);
+  --shadow: rgb(127,161,182);
+  --zebra: rgb(231, 255, 237);
+  --odd:rgb(231,240,237);
 }
 
 table {
