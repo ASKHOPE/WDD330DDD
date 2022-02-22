@@ -64,3 +64,10 @@ tfoot {
 tfoot {
   font-size: 0.8rem;
 }
+footer, header{
+  margin: 0;
+  text-align: center;
+}
+h1{
+  font-size: 1.4rem;
+}
