@@ -49,6 +49,10 @@ th {
   background-color: var(--back2);
 }
 
+#thd{
+      font-size: 1.75em;
+}
+
 td {
   text-align: center;
 }
