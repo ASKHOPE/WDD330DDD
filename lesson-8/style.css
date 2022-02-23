@@ -4,7 +4,7 @@
   --foredark: hsla(0, 0%, 10%, 1);
   --forelight: black;
   --border: hsl(0, 0%, 20%);
-  --borderlight: hsl(0, 0%, 33%);
+  --borderlight: #899da7;
   --shadow: rgb(127,161,182);
   --zebra: rgb(231, 255, 237);
   --odd:rgb(231,240,237);
