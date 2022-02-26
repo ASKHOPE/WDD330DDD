@@ -248,3 +248,9 @@ main > div#thankyouforjoining {
   margin-top: 4em;
   margin-bottom: 10rem;
 }
+
+
+.description {
+    display: block;
+    font-size: smaller;
+}
