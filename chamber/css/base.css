@@ -482,10 +482,10 @@ form label.top input:required {
 
 
 @keyframes example {
-  0%   {background-color: var(--chocolate-web);}
-  25%  {background-color: var(--sage);}
-  50%  {background-color: var(--dark-purple);
-  color:white;font-size: 0.8rem;}
-  100% {background-color: var(--ming)}
+  0%   {background-color: var(--chocolate-web);font-weight: bold;}
+  25%  {background-color: var(--sage);font-weight: bold;}
+  50%  {background-color: var(--chocolate-web);
+  font-weight: bold;font-size: 0.8rem;}
+  100% {background-color: var(--sage);font-weight: bold;}
 }
 
