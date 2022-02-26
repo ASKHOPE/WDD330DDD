@@ -388,7 +388,7 @@ form {
 }
 
 .description {
-  display: none;
+  display: block;
 }
 
 form fieldset {
