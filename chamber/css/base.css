@@ -483,12 +483,32 @@ form label.top input:required:valid {
   border-radius: 10px;
 }
 
-
 @keyframes example {
-  0%   {background-color: var(--chocolate-web);font-weight: bold;}
-  25%  {background-color: var(--sage);font-weight: bold;}
-  50%  {background-color: var(--chocolate-web);
-  font-weight: bold;font-size: 0.8rem;}
-  100% {background-color: var(--sage);font-weight: bold;}
+  0% {
+    background-color: var(--chocolate-web);
+    font-weight: bold;
+  }
+  25% {
+    background-color: var(--sage);
+    font-weight: bold;
+  }
+  50% {
+    background-color: var(--chocolate-web);
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  100% {
+    background-color: var(--sage);
+    font-weight: bold;
+  }
 }
 
+/*++++++++Thank YOu+++++++++++*/
+main > div#thankyouforjoining {
+  margin: auto;
+  
+  width: 50%;
+  font-size: 1.5rem;
+  margin-top: 22%;
+  margin-bottom: 20%;
+}
