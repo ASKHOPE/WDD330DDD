@@ -100,11 +100,9 @@
 
   div.join {
     display: block;
-
-   
   }
   div.join > section > h2#h2jw > a {
-     padding: 10px;
+    padding: 10px;
     background-color: chocolate;
     border-radius: 10px;
   }
@@ -177,4 +175,11 @@
     font-size: 15px;
     text-align: center;
   }
+}
+
+/*+++++++++++++++JOIN++++++++++++++++++*/
+
+main.join-main {
+  display: flex;
+  flex-direction: column;
 }
