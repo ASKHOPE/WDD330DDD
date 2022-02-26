@@ -464,7 +464,10 @@ form input.submitBtn:hover {
 
 form label.top input:required {
   border-left: red solid 5px;
- 
+}
+
+form label.top input:required:valid {
+  border-left: green solid 5px;
 }
 
 .level {
