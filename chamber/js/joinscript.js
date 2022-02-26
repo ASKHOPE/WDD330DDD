@@ -1,5 +1,5 @@
 const date = new Date();
-const year = date.getFullYear();
+const yearfromdate = date.getFullYear();
 
 //Get date and time
 var datetime =
