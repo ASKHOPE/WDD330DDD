@@ -19,3 +19,4 @@ if (lastvisit != 0) {
 }
 
 window.localStorage.setItem("lastvisit", thisvisit);
+
