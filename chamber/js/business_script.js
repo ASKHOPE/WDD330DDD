@@ -8,7 +8,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     //loop integraded in the promise
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const buziness = jsonObject["businesses"];
+    const buziness = jsonObject["buziness"];
     const cards = document.querySelector(".cards");
     buziness.forEach((business) => {
       //Injects the rest of the code here itself.//
