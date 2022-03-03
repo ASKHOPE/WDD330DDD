@@ -13,17 +13,7 @@ fetch(requestURL)
       //Injects the rest of the code here itself.//
       let card = document.createElement("section");
 
-      let h2 = document.createElement("h2");
-      h2.textContent = `${business.name} `;
-
-      let p1 = document.createElement("p");
-      p1.textContent = `Address ${business.address}`;
-
-      let p2 = document.createElement("p");
-      p2.textContent = `Phone ${business.phone}`;
-
-      let p3 = document.createElement("p");
-      p2.textContent = `Phone ${business.website}`;
+      
 
       let logo = document.createElement("img");
 
@@ -34,12 +24,25 @@ fetch(requestURL)
         `Logo of ${business.name}, located at ${business.address} and they can be reached at ${business.phone}`
       );
 
-      logo.setAttribute("loading", "lazy");
+
+      let h2 = document.createElement("h2");
+      h2.textContent = `${business.name} `;
+
+      let p1 = document.createElement("p");
+      p1.textContent = `Phone ${business.phone}`; 
+
+      let p2 = document.createElement("p");
+      p2.textContent = `Address ${business.address}`;
+
+      let p3 = document.createElement("p");
+      p3.textContent = `Website ${business.website}`;
+
+      //logo.setAttribute("loading", "lazy");
+      card.appendChild(logo);
       card.appendChild(h2);
       card.appendChild(p1);
       card.appendChild(p2);
       card.appendChild(p3);
-      card.appendChild(logo);
       cards.appendChild(card);
       document.querySelector("div.cards").appendChild(card);
     });

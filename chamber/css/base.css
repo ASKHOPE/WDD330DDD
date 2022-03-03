@@ -512,3 +512,9 @@ main > div#thankyouforjoining {
   margin-top: 22%;
   margin-bottom: 20%;
 }
+
+
+/* ======== Directory Base begins ========*/
+div.cards > section > img{
+  width: 10%;
+}
