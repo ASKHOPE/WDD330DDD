@@ -27,7 +27,7 @@ fetch(requestURL)
 
       let logo = document.createElement("img");
 
-      logo.setAttribute("src", business.imageurl);
+      logo.setAttribute("src", business.logourl);
 
       logo.setAttribute(
         "alt",
