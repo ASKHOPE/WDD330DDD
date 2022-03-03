@@ -1,5 +1,4 @@
-const requestURL =
-  "https://https://askhope.github.io/wdd230/chamber/data/data.json";
+const requestURL = "https://askhope.github.io/wdd230/chamber/data/data.json";
 
 fetch(requestURL)
   .then(function (response) {
