@@ -8,7 +8,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     //loop integraded in the promise
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const buziness = jsonObject["buziness"];
+    const buziness = jsonObject["data"];
     const cards = document.querySelector(".cards");
     buziness.forEach((business) => {
       //Injects the rest of the code here itself.//
@@ -27,6 +27,9 @@ fetch(requestURL)
       p2.textContent = `Phone ${business.website}`;
 
       let logo = document.createElement("img");
+
+      logo.setAttribute("src", business.imageurl);
+
       logo.setAttribute(
         "alt",
         `Logo of ${business.name}, located at ${business.address} and they can be reached at ${business.phone}`
