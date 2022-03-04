@@ -506,15 +506,32 @@ form label.top input:required:valid {
 /*++++++++Thank YOu+++++++++++*/
 main > div#thankyouforjoining {
   margin: auto;
-  
+
   width: 50%;
   font-size: 1.5rem;
   margin-top: 22%;
   margin-bottom: 20%;
 }
 
-
 /* ======== Directory Base begins ========*/
-div.cards > section > img{
-  width: 10%;
+
+/* -----GRID VIEW------*/
+div.cards > section > img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+div.cards > section {
+ text-align: center;
+}
+
+/* -----LIST VIEW --------*/
+
+div.viewerselection{
+  align-items: center;
+  display: grid;
+    grid-template-columns: 1fr 1fr;
 }
