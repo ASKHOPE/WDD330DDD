@@ -254,3 +254,33 @@ main > div#thankyouforjoining {
     display: block;
     font-size: smaller;
 }
+
+
+
+/* ======== Directory Base begins ========*/
+
+/* -----GRID VIEW------*/
+div.cards > section > img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+div.cards > section {
+  text-align: center;
+}
+
+div.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* -----LIST VIEW --------*/
+
+div.viewerselection {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

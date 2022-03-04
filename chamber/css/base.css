@@ -515,6 +515,10 @@ main > div#thankyouforjoining {
 
 /* ======== Directory Base begins ========*/
 
+main#demean{
+  display: block;
+}
+
 /* -----GRID VIEW------*/
 div.cards > section > img {
   display: block;
