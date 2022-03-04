@@ -186,7 +186,7 @@ main.join-main {
 
 /* ======== Directory Base begins ========*/
 
-/* -----GRID VIEW------*/
+/* -----GRID VIEW------
 div.cards > section > img {
   display: block;
   width: 100%;
@@ -194,6 +194,8 @@ div.cards > section > img {
   height: auto;
   margin: auto;
 }
+
+*/
 
 div.cards > section {
   text-align: center;
