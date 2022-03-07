@@ -221,6 +221,11 @@ h2#h2w {
   border-radius: 27px;
 }
 
+h2#h2w > a{
+      color: white;
+    text-decoration: none;
+}
+
 div.event > p#eefo {
   margin: 20px;
 }
