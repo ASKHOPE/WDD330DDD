@@ -554,6 +554,11 @@ button#listsviewBtn {
   width: 70px;
 }
 
+button#gridviewBtn > span > img ,
+button#listsviewBtn > span > img{
+  width: -webkit-fill-available;
+}
+
 div#defgridview.bcards.open > section > img {
   display: none;
 }
