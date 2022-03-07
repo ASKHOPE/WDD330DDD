@@ -27,13 +27,13 @@ fetch(requestURL)
       h2.textContent = `${business.name} `;
 
       let p1 = document.createElement("p");
-      p1.textContent = `Phone ${business.phone}`; 
+      p1.textContent = ` ${business.phone}`; 
 
       let p2 = document.createElement("p");
-      p2.textContent = `Address ${business.address}`;
+      p2.textContent = ` ${business.address}`;
 
       let p3 = document.createElement("p");
-      p3.textContent = `Website ${business.website}`;
+      p3.textContent = ` ${business.website}`;
 
       //logo.setAttribute("loading", "lazy");
       bcard.appendChild(logo);
