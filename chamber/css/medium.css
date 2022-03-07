@@ -197,6 +197,11 @@ div.cards > section > img {
 
 */
 
+main#demean{
+  max-width: 55em;
+  margin: 0 auto;
+}
+
 div.bcards > section {
   text-align: center;
 }
@@ -214,6 +219,7 @@ div#defgridview.bcards.open > section{
     grid-column: 1/3;
     border: 1px solid grey;
   }
+  
 
 }
 /* -----LIST VIEW --------*/
@@ -223,6 +229,8 @@ div.viewerselection {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+
 
 
 

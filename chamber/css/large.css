@@ -10,7 +10,7 @@
   }
   header {
     padding: 0px;
-    font-size: 25px;  
+    font-size: 25px;
   }
 
   h1 {
@@ -183,15 +183,14 @@
     grid-row: 3;
   }
 
-
   main > div.spotlight {
     grid-row: 1/4;
     grid-column: 3;
-    border:0;
+    border: 0;
   }
 
   @media only screen and (min-width: 1589px) {
-    main > div.news{
+    main > div.news {
       border-top-width: 3em;
     }
   }
@@ -235,34 +234,35 @@
   }
 }
 
-main#tyf{
-  grid:none;
-  
+main#tyf {
+  grid: none;
 }
 
 main > div#thankyouforjoining {
   margin: auto;
-  
+
   width: 50%;
   font-size: 1.5rem;
   margin-top: 4em;
   margin-bottom: 10rem;
 }
 
-
 .description {
-    display: block;
-    font-size: smaller;
+  display: block;
+  font-size: smaller;
 }
-
-
 
 /* ======== Directory Base begins ========*/
 
 /* -----GRID VIEW------*/
-
-div.cards {
-  /*grid-template-columns: 1fr 1fr 1fr;*/
+@media only screen and (min-width: 1200px) {
+  main#demean {
+    max-width: 70em;
+    margin: 0 auto;
+  }
+  div#defgridview.bcards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 /* -----LIST VIEW --------*/
@@ -271,4 +271,9 @@ div.viewerselection {
   align-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+div#defgridview.bcards.open > section {
+  display: flex;
+  grid-column: 1/4;
 }
