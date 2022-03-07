@@ -197,15 +197,15 @@ div.cards > section > img {
 
 */
 
-div.cards > section {
+div.bcards > section {
   text-align: center;
 }
 
-div.cards {
-  /*display: grid;*/
-  grid-template-columns: 50% 50%;
+div#defgridview.bcards {
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
-
 /* -----LIST VIEW --------*/
 
 div.viewerselection {
@@ -213,3 +213,13 @@ div.viewerselection {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+
+div#defgridview.bcards.open > section{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.2fr 0.2fr;
+    grid-column: 1/3;
+    border: 1px solid grey;
+  }
+

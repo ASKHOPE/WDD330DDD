@@ -8,12 +8,10 @@ fetch(requestURL)
     //loop integraded in the promise
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const buziness = jsonObject["data"];
-    const cards = document.querySelector(".cards");
+    const bcards = document.querySelector(".bcards");
     buziness.forEach((business) => {
       //Injects the rest of the code here itself.//
-      let card = document.createElement("section");
-
-      
+      let bcard = document.createElement("section");
 
       let logo = document.createElement("img");
 
@@ -38,12 +36,12 @@ fetch(requestURL)
       p3.textContent = `Website ${business.website}`;
 
       //logo.setAttribute("loading", "lazy");
-      card.appendChild(logo);
-      card.appendChild(h2);
-      card.appendChild(p1);
-      card.appendChild(p2);
-      card.appendChild(p3);
-      cards.appendChild(card);
-      document.querySelector("div.cards").appendChild(card);
+      bcard.appendChild(logo);
+      bcard.appendChild(h2);
+      bcard.appendChild(p1);
+      bcard.appendChild(p2);
+      bcard.appendChild(p3);
+      bcards.appendChild(bcard);
+      document.querySelector("div.bcards").appendChild(bcard);
     });
   });

@@ -520,7 +520,7 @@ main#demean{
 }
 
 /* -----GRID VIEW------*/
-div.cards > section > img {
+div.bcards > section > img {
   display: block;
   width: 100%;
   max-width: 200px;
@@ -528,17 +528,17 @@ div.cards > section > img {
   margin: auto;
 }
 
-div.cards > section >h2{
+div.bcards > section >h2{
   grid-row: 1;
   
 }
 
-div#defgridview.cards > section > h2{
+div#defgridview.bcards > section > h2{
   text-align: center;
 }
 
 
-div.cards > section {
+div.bcards > section {
  
  border:5px solid grey;
  display:grid;
@@ -552,8 +552,6 @@ div.viewerselection{
   display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-
 button#listsviewBtn{
   grid-column: 2;
   grid-row: 1;
@@ -563,36 +561,29 @@ button#gridviewBtn{
   grid-row: 1;
 }
 
-/*------ List View Layout ---
-div#defgridview.cards.open{
-  display:grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr 1fr;
-}*/
-
-div#defgridview.cards.open > section > img{
-  display:none;
-   
+div#defgridview.bcards.open > section > img{
+  display:none;   
 }
 
-div#defgridview.cards.open > section{
+div#defgridview.bcards.open > section{
     text-align: left;
     align-items: left;
     border: none;
     box-shadow: none;
     margin: 0;
     border: 1px solid grey;
+    
   }
 
-  div#defgridview.cards.open > h2{
+  div#defgridview.bcards.open > section > h2{
     align-self: flex-start;
     margin-left: 5%;
+    text-align: inherit;
   }
 
-div#defgridview.cards.open > section >p{
+div#defgridview.bcards.open > section >p{
     margin-left: 5%;
-    
 }
-div#defgridview.cards{
+div#defgridview.bcards{
 padding-left: 0px;
 }
