@@ -227,6 +227,18 @@
     display: block;
   }
 
+
+
+
+main.join-main > form > fieldset:nth-child(3) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
   /* =====================Footer===================*/
   .footer-logo > img {
     width: 125px;
