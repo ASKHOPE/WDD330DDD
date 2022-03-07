@@ -584,3 +584,10 @@ div#defgridview.bcards.open > section > p {
 div#defgridview.bcards {
   padding-left: 0px;
 }
+
+div#defgridview.bcards.open > section:nth-child(even){
+  background-color: rgba(0, 132, 255, 0.1);
+}
+div#defgridview.bcards.open > section:nth-child(odd){
+  background-color: rgba(255, 251, 0, 0.2);
+}
