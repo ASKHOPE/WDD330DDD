@@ -262,7 +262,7 @@ main > div#thankyouforjoining {
 /* -----GRID VIEW------*/
 
 div.cards {
-  grid-template-columns: 1fr 1fr 1fr;
+  /*grid-template-columns: 1fr 1fr 1fr;*/
 }
 
 /* -----LIST VIEW --------*/
