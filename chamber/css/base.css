@@ -567,12 +567,10 @@ div#defgridview.bcards.open > section > img{
 
 div#defgridview.bcards.open > section{
     text-align: left;
-    align-items: left;
     border: none;
     box-shadow: none;
     margin: 0;
     border: 1px solid grey;
-    
   }
 
   div#defgridview.bcards.open > section > h2{
