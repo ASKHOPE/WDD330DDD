@@ -3,5 +3,5 @@ function toggleMenu() {
   document.getElementById("listviewBtn").classList.toggle("open");
 }
 
-const x = document.getElementById("viewerselection");
-x.onclick = toggleMenu;
+const xo = document.getElementById("viewerselection");
+xo.onclick = toggleMenu;
