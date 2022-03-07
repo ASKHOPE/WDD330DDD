@@ -204,6 +204,7 @@ main#demean{
 
 div.bcards > section {
   text-align: center;
+  margin: 5px;
 }
 
 @media only screen and (min-width: 35rem) {
@@ -211,6 +212,7 @@ div#defgridview.bcards  {
     padding-left: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border: 0;
 }
 div#defgridview.bcards.open > section{
     display: grid;

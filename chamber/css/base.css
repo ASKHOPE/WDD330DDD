@@ -546,6 +546,7 @@ div.bcards > section {
 div.viewerselection {
   display: block;
   text-align: center;
+  border: 0;
 }
 
 button#gridviewBtn,
