@@ -9,7 +9,7 @@
       "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
     },
     {
-      "name": "Karri Mobiles",
+      "name": "Vamsi Resort",
       "phone": "+919843276510",
       "website": "Nallabarrimobiles.com",
       "address": "1015 Nalla Mandhu Sandhu",
@@ -17,7 +17,7 @@
       "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
     },
     {
-      "name": "Nalli Mobiles",
+      "name": "Parus Design",
       "phone": "+919832765410",
       "website": "Nallabarrimobiles.com",
       "address": "144 Thapu Cheyaku",
@@ -27,6 +27,72 @@
     {
       "name": "Gorri Mobiles",
       "phone": "+915439876210",
+      "website": "Nallabarrimobiles.com",
+      "address": "10/28B Vadhura Sodhara",
+      "availability": "Mon - Sat / 9AM - 9PM",
+      "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
+    } 
+    ,
+    {
+      "name": "Swami Hotel",
+      "phone": "+919843276510",
+      "website": "Nallabarrimobiles.com",
+      "address": "1015 Nalla Mandhu Sandhu",
+      "availability": "Mon - Sat / 10AM - 10PM",
+      "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
+    },
+    {
+      "name": "Nalli Electronics",
+      "phone": "+919832765410",
+      "website": "Nallabarrimobiles.com",
+      "address": "144 Thapu Cheyaku",
+      "availability": "Mon - Sat / 8AM - 9PM",
+      "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
+    },
+    {
+      "name": "Harsha Mechanic",
+      "phone": "+915439876210",
+      "website": "Nallabarrimobiles.com",
+      "address": "10/28B Vadhura Sodhara",
+      "availability": "Mon - Sat / 9AM - 9PM",
+      "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
+    } ,
+    {
+      "name": "Parus Design",
+      "phone": "+919832765410",
+      "website": "Nallabarrimobiles.com",
+      "address": "144 Thapu Cheyaku",
+      "availability": "Mon - Sat / 8AM - 9PM",
+      "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
+    },
+    {
+      "name": "Srikanya Banquet Hall",
+      "phone": "+915876439210",
+      "website": "Nallabarrimobiles.com",
+      "address": "10/28B Vadhura Sodhara",
+      "availability": "Mon - Sat / 9AM - 9PM",
+      "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
+    } 
+    ,
+    {
+      "name": "Nagulu Emporium",
+      "phone": "+919845132760",
+      "website": "Nallabarrimobiles.com",
+      "address": "1015 Nalla Mandhu Sandhu",
+      "availability": "Mon - Sat / 10AM - 10PM",
+      "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
+    },
+    {
+      "name": "Subash Wholesale",
+      "phone": "+919276583410",
+      "website": "Nallabarrimobiles.com",
+      "address": "144 Thapu Cheyaku",
+      "availability": "Mon - Sat / 8AM - 9PM",
+      "logourl": "https://i.ibb.co/r0pkM5X/aa.webp"
+    },
+    {
+      "name": "Basker Icecream",
+      "phone": "+915423344210",
       "website": "Nallabarrimobiles.com",
       "address": "10/28B Vadhura Sodhara",
       "availability": "Mon - Sat / 9AM - 9PM",
