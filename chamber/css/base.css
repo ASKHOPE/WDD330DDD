@@ -515,7 +515,7 @@ main > div#thankyouforjoining {
 
 /* ======== Directory Base begins ========*/
 
-main#demean{
+main#demean {
   display: block;
 }
 
@@ -528,61 +528,53 @@ div.bcards > section > img {
   margin: auto;
 }
 
-div.bcards > section >h2{
+div.bcards > section > h2 {
   grid-row: 1;
-  
 }
 
-div#defgridview.bcards > section > h2{
+div#defgridview.bcards > section > h2 {
   text-align: center;
 }
 
-
 div.bcards > section {
- 
- border:5px solid grey;
- display:grid;
- 
+  border: 5px solid grey;
+  display: grid;
 }
 
 /* -----Toggle buttons--------*/
 
-div.viewerselection{
-  align-items: center;
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-button#listsviewBtn{
-  grid-column: 2;
-  grid-row: 1;
-}
-button#gridviewBtn{
-    grid-column: 1;
-  grid-row: 1;
+div.viewerselection {
+  display: block;
+  text-align: center;
 }
 
-div#defgridview.bcards.open > section > img{
-  display:none;   
+button#gridviewBtn,
+button#listsviewBtn {
+  height: 70px;
+  width: 70px;
 }
 
-div#defgridview.bcards.open > section{
-    text-align: left;
-    border: none;
-    box-shadow: none;
-    margin: 0;
-    border: 1px solid grey;
-  }
-
-  div#defgridview.bcards.open > section > h2{
-    align-self: flex-start;
-    margin-left: 5%;
-    text-align: inherit;
-  }
-
-div#defgridview.bcards.open > section >p{
-    margin-left: 5%;
-}
-div#defgridview.bcards{
-padding-left: 0px;
+div#defgridview.bcards.open > section > img {
+  display: none;
 }
 
+div#defgridview.bcards.open > section {
+  text-align: left;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  border: 1px solid grey;
+}
+
+div#defgridview.bcards.open > section > h2 {
+  align-self: flex-start;
+  margin-left: 5%;
+  text-align: inherit;
+}
+
+div#defgridview.bcards.open > section > p {
+  margin-left: 5%;
+}
+div#defgridview.bcards {
+  padding-left: 0px;
+}

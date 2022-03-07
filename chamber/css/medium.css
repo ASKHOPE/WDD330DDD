@@ -224,11 +224,7 @@ div#defgridview.bcards.open > section{
 }
 /* -----LIST VIEW --------*/
 
-div.viewerselection {
-  align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+
 
 
 
