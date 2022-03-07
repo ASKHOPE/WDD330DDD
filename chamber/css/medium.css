@@ -186,17 +186,6 @@ main.join-main {
 
 /* ======== Directory Base begins ========*/
 
-/* -----GRID VIEW------
-div.cards > section > img {
-  display: block;
-  width: 100%;
-  max-width: 200px;
-  height: auto;
-  margin: auto;
-}
-
-*/
-
 main#demean{
   max-width: 55em;
   margin: 0 auto;
