@@ -266,6 +266,11 @@ main > div#thankyouforjoining {
   div#defgridview.bcards.open {
     grid-template-columns: repeat(4,1fr);
 }
+div#defgridview.bcards.open > section {
+    display: grid;
+    grid-column: 1/5;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 }
 
 /* -----LIST VIEW --------*/
@@ -276,8 +281,4 @@ div.viewerselection {
   grid-template-columns: 1fr 1fr;
 }
 
-div#defgridview.bcards.open > section {
-    display: grid;
-    grid-column: 1/5;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+
