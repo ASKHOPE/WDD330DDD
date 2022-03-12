@@ -568,7 +568,7 @@ button#listsviewBtn {
 
 button#gridviewBtn > span > img ,
 button#listsviewBtn > span > img{
-  width: -webkit-fill-available;
+  width: 100%;
 }
 
 div#defgridview.bcards.open > section > img {
