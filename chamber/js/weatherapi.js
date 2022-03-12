@@ -1,5 +1,5 @@
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/weather?q=Rajahmundry&units=metric&appid=76088e3b3b69023841d188f0bf640df2";
+  "https://api.openweathermap.org/data/2.5/weather?q=Rajahmundry&units=Imperial&appid=76088e3b3b69023841d188f0bf640df2";
 
 fetch(apiURL)
   .then((response) => response.json())
