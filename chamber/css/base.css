@@ -236,12 +236,16 @@ div.weather > section {
   margin-left: 10%;
 }
 
+div.weather > p{
+  margin: 0;
+}
+
 img#logwe {
   max-width: 50%;
 }
 
 div.weather > p#wedeg {
-  position: absolute;
+  position: absolute; 
   margin-left: 51%;
   margin-top: 25%;
   font-size: 3em;
