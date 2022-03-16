@@ -96,11 +96,13 @@
   main > div.join {
     grid-row: 4;
     grid-column: 1/4;
-  }
-
-  div.join {
     display: block;
+    text-align: center;
   }
+/*
+  div.join {
+  }
+*/
   div.join > section > h2#h2jw > a {
     padding: 5px;
     background-color: chocolate;
