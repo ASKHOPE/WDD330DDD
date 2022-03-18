@@ -53,7 +53,7 @@ header {
   margin: 1px;
 }
 
-.header-logo > img {
+.header-logo >a> img {
   margin-left: 10%;
   margin-top: 5%;
   max-width: 4em;
