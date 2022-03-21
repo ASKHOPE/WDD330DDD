@@ -19,16 +19,13 @@
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Jura:wght@300&display=swap"
       rel="stylesheet"
     />
-
-    <script defer src="js/business_script.js"></script>
-    <script defer src="js/script.js"></script>
-    <script defer src="js/discover_lv.js"></script>
-    <script defer src="js/lazyload.js"></script>
-    <script defer src="js/toggleviewer.js"></script>
   </head>
 
   <body>
-    <header>
+    <div class="chamber-meeting-invite" id="chamber-meeting-invite">
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+    </div>
+     <header>
       <div class="header-logo">
         <a href="index.html"><img src="images/rcc2_logo.png" alt="rcc logo" /></a>
       </div>
@@ -72,47 +69,35 @@
       </div>
     </header>
 
-    <div class="chamber-meeting-invite" id="chamber-meeting-invite">
-      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-    </div>
+    <h2> Contact Us </h2>
+    <main>
+        <div class="contact-main">
+            <form method="get" action="thankyou-contact.html">
+                <fieldset>
+                    <legend>Get in touch</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone*<input type="tel" name="phone" required></label>
+                    <label class="top">Questions or comments<br><textarea rows="3" name="bus-description"></textarea></label>
+                </fieldset>
+                <input type="submit" class="submitBtn" value="Contact Us">
+            </form>
 
-    <main id="demean">
-      <div class="viewerselection">
-        <button id="gridviewBtn"><span><img src="https://i.ibb.co/1bhsDsx/grid-2-01-512.webp" alt="grid icon" ></span></button>
-        <button id="listsviewBtn"><span><img src="https://i.ibb.co/1QXT6ym/asdas.webp" alt="list icon" ></span></button>
-      </div>
-      <div class="bcards" id="defgridview"></div>
+            <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.918396585319!2d-111.65936458460968!3d40.23311657938691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9753acfb9965%3A0x7736f69e891a3ab7!2s100%20E%20Center%20St%2C%20Provo%2C%20UT%2084606!5e0!3m2!1sen!2sus!4v1647398092186!5m2!1sen!2sus" width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="information">
+                <section class="visit-us">
+                    <h3>Visit Us</h3>
+                    <p>Utah Valley Chamber of Commerce<br>100 E Center St<br>Provo, Utah 84604</p>
+                    <p>(801) 234-5678</p>
+                </section>
+                <section class="contact-point">
+                    <h3>Point of Contact</h3>
+                    <h4>Macy Whitney</h4>
+                    <p>(801) 420-6776<br> utvalleychamber@gmail.com</p>
+                </section>
+            </div>
+        </div>
     </main>
-
-    <footer>
-      <div class="footer-logo">
-        <img src="images/rcc2_logo.png" alt="rcc logo" />
-      </div>
-      <!-- <div class="footer-sitename">Rajahmundry Chamber of Commerce</div> -->
-      <div class="footer-sitename-address">
-        Rajahmundry Chamber of Commerce <br />Pushkara Ghat Rd <br />
-        Rajahmundry, <br />
-        Andhra Pradesh 533101
-      </div>
-      <div class="footer-site-contact">
-        info@rjycc.com <br />
-        <br />
-        +(91)9876543210 <br />
-        <a href="https://goo.gl/maps/ycTGwmeeKkMfnAUg9" target="_blank"
-          >📍Location Map</a
-        >
-      </div>
-
-      <div class="footer-lowend">
-        <hr />
-        <div class="copyright">
-          &copy; <span id="currentyear"></span> Rajahmundry Chamber | Arnold
-          Sujan Katru | WDD 230 Project
-        </div>
-        <div class="last-updated">
-          <p></p>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
