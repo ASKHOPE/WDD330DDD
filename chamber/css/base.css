@@ -631,4 +631,10 @@ main#demean {
 
 div#defgridview.bcards.open > section > a {
   margin-left: 5%;
+  
 }
+
+div#defgridview.bcards > section > a {
+  padding-bottom: 5%;
+}
+
