@@ -48,7 +48,6 @@ fetch(requestURL)
       //bcard.appendChild(p3);
       bcard.appendChild(a);
 
-      
       bcards.appendChild(bcard);
       document.querySelector("div.bcards").appendChild(bcard);
     });
