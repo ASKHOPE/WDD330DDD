@@ -8,7 +8,8 @@ fetch(apiURL)
     const t = jsObject.main.temp.toFixed(1);
     document.querySelector("#current-temp").textContent = t;
 
-    const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    //const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${jsObject.weather[0].icon}@2x.png`; 
     const desc = jsObject.weather[0].description;
     const windsp = jsObject.wind.speed;
     document.querySelector("#weathericon").setAttribute("src", iconsrc);
