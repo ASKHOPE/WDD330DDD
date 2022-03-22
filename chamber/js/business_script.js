@@ -12,6 +12,7 @@ fetch(requestURL)
     buziness.forEach((business) => {
       //Injects the rest of the code here itself.//
       let bcard = document.createElement("section");
+      let a = document.createElement("a");
 
       let logo = document.createElement("img");
 
@@ -33,14 +34,21 @@ fetch(requestURL)
       p2.textContent = ` ${business.address}`;
 
       let p3 = document.createElement("p");
-      p3.textContent = ` ${business.website}`;
+      p3.textContent = `${business.website}`;
+
+       a.href = `${business.website}`;
+       a.target = "_blank";
+       a.textContent = `${business.website}`;
 
       //logo.setAttribute("loading", "lazy");
       bcard.appendChild(logo);
       bcard.appendChild(h2);
       bcard.appendChild(p1);
       bcard.appendChild(p2);
-      bcard.appendChild(p3);
+      //bcard.appendChild(p3);
+      bcard.appendChild(a);
+
+      
       bcards.appendChild(bcard);
       document.querySelector("div.bcards").appendChild(bcard);
     });

@@ -224,5 +224,7 @@ div#defgridview.bcards.open > section{
 
 
 
-
+main.maincon{
+  grid-template-rows: auto;
+}
 

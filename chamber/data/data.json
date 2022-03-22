@@ -6,7 +6,8 @@
       "website": "barrimobiles.com",
       "address": "107 Mandhu Vadhu",
       "availability": "Mon - Sat / 7AM - 9PM",
-      "logourl": "https://i.ibb.co/tQmq2rn/BM-logos.webp"
+      "logourl": "https://i.ibb.co/tQmq2rn/BM-logos.webp",
+       "membership" : "Silver"
     },
     {
       "name": "Vamsi Resort",
@@ -14,7 +15,8 @@
       "website": "vamsiresort.com",
       "address": "1015 Nalla Mandhu Sandhu",
       "availability": "Mon - Sat / 10AM - 10PM",
-      "logourl": "https://i.ibb.co/dknP696/Vamsi-Resort-logos.webp"
+      "logourl": "https://i.ibb.co/dknP696/Vamsi-Resort-logos.webp",
+      "membership" : "Gold"
     },
     {
       "name": "Parus Design",
@@ -22,7 +24,8 @@
       "website": "parusdesign.com",
       "address": "144 Thapu Cheyaku Holem City",
       "availability": "Mon - Sat / 8AM - 9PM",
-      "logourl": "https://i.ibb.co/7N0kqzV/Parus-Design-logos.webp"
+      "logourl": "https://i.ibb.co/7N0kqzV/Parus-Design-logos.webp",
+      "membership" : "Gold"
     },
     {
       "name": "Fresh Fruits",
@@ -30,7 +33,8 @@
       "website": "freshfruits.com",
       "address": "10/28B Kangar Sagar Rural Rajamundry",
       "availability": "Mon - Sat / 9AM - 9PM",
-      "logourl": "https://i.ibb.co/XD0SfZF/Fresh-Fruit-logos.webp"
+      "logourl": "https://i.ibb.co/XD0SfZF/Fresh-Fruit-logos.webp",
+       "membership" : "Silver"
     } 
     ,
     {
@@ -39,7 +43,8 @@
       "website": "Nallabarrimobiles.com",
       "address": "1015 Nalla Mandhu Sandhu",
       "availability": "Mon - Sat / 10AM - 10PM",
-      "logourl": "https://i.ibb.co/d6qCb8M/Swami-Hotel-logos.webp"
+      "logourl": "https://i.ibb.co/d6qCb8M/Swami-Hotel-logos.webp",
+       "membership" : "Silver"
     },
     {
       "name": "Nalli Electronics",
@@ -47,7 +52,8 @@
       "website": "Nallielectronics.com",
       "address": "18/12 Musuku Sandu Rajahmundry",
       "availability": "Mon - Sat / 8AM - 9PM",
-      "logourl": "https://i.ibb.co/g4w37zK/Nalli-Electronics-logos.webp"
+      "logourl": "https://i.ibb.co/g4w37zK/Nalli-Electronics-logos.webp",
+       "membership" : "Silver"
     },
     {
       "name": "Harsha Mechanic",
@@ -55,7 +61,8 @@
       "website": "harshamechanic.com",
       "address": "1 Raksha Seenu Mandal",
       "availability": "Mon - Sat / 9AM - 9PM",
-      "logourl": "https://i.ibb.co/16c8LJQ/Harsha-Mechanic-logos.webp"
+      "logourl": "https://i.ibb.co/16c8LJQ/Harsha-Mechanic-logos.webp",
+      "membership" : "Gold"
     } ,
     {
       "name": "Ren-Mo",
@@ -63,7 +70,8 @@
       "website": "renmo.com",
       "address": "49 Katraj Sarparaj City ",
       "availability": "Mon - Sat / 8AM - 9PM",
-      "logourl": "https://i.ibb.co/ZYfDVwj/Ren-Mo-logos.webp"
+      "logourl": "https://i.ibb.co/ZYfDVwj/Ren-Mo-logos.webp",
+      "membership" : "Gold"
     },
     {
       "name": "Srikanya Banquet Hall",
@@ -71,7 +79,8 @@
       "website": "srikanyabanquethall.com",
       "address": "89-B Neku Chaduvu Enduku Marpu City",
       "availability": "Mon - Sat / 9AM - 9PM",
-      "logourl": "https://i.ibb.co/stGrSSG/Srikanya-Banquet-Hall-logos.webp"
+      "logourl": "https://i.ibb.co/stGrSSG/Srikanya-Banquet-Hall-logos.webp",
+      "membership" : "Gold"
     } 
     ,
     {
@@ -80,7 +89,8 @@
       "website": "Naguluemporium.com",
       "address": "9 Veskunte Mamolga Undadu Mari City",
       "availability": "Mon - Sat / 10AM - 10PM",
-      "logourl": "https://i.ibb.co/j4jh1St/Nagulu-Emporium-logos.webp"
+      "logourl": "https://i.ibb.co/j4jh1St/Nagulu-Emporium-logos.webp",
+       "membership" : "Silver"
     },
     {
       "name": "Subash Wholesale",
@@ -88,7 +98,8 @@
       "website": "subashwholesale.com",
       "address": "3/84 Parledu Enneno Anukuntam Street",
       "availability": "Mon - Sat / 8AM - 9PM",
-      "logourl": "https://i.ibb.co/BCDd55d/Subash-Wholesale-logos.webp"
+      "logourl": "https://i.ibb.co/BCDd55d/Subash-Wholesale-logos.webp",
+       "membership" : "Silver"
     },
     {
       "name": "Basker Icecream",
@@ -96,7 +107,8 @@
       "website": "Basker Icecream.com",
       "address": "1/33 Robert Road Poyindi Street",
       "availability": "Mon - Sat / 9AM - 9PM",
-      "logourl": "https://i.ibb.co/bN1F0Rx/Basker-Icecream-logos.webp"
+      "logourl": "https://i.ibb.co/bN1F0Rx/Basker-Icecream-logos.webp",
+       "membership" : "Silver"
     } 
   ]
 }

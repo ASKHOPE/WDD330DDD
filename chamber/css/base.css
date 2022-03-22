@@ -606,3 +606,29 @@ div#defgridview.bcards.open > section:nth-child(even){
 div#defgridview.bcards.open > section:nth-child(odd){
   background-color: rgba(255, 251, 0, 0.2);
 }
+
+main.maincon{
+  grid-template-columns: repeat(4, 1fr);
+}
+main > div.contact-main2 { 
+      display: block;
+    grid-column: 3;
+    border: 0;
+}
+
+
+main > div.contact-main { 
+      display: block;
+    grid-column: 2;
+    border: 0;
+
+}
+
+main#demean {
+  font-family: var(--paragraph-font);
+  font-weight: bold;
+}
+
+div#defgridview.bcards.open > section > a {
+  margin-left: 5%;
+}
