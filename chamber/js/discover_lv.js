@@ -9,7 +9,7 @@ if (lastvisit != 0) {
   let daysBetween = (thisvisit - lastvisit) / FACTOR;
 
   if (daysBetween.toFixed(0) != 1) {
-    document.querySelector(".lastvisit").textContent = 'It has been ' + daysBetween.toFixed(0) + ' days since your last visit.';
+    document.querySelector("#lastvisit").textContent = 'It has been ' + daysBetween.toFixed(0) + ' days since your last visit.';
 
     window.localStorage.setItem("lastvisit", thisvisit);
 
