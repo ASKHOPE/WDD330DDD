@@ -645,6 +645,7 @@ h6{
 div.spotlight > section.spot1 > a, div.spotlight > section.spot2 > a, div.spotlight > section.spot3 > a{
   font-family: var(--paragraph-font);
   font-weight: bold;
-
 }
 
+div.spotlight > section.spot1 > h3, div.spotlight > section.spot2 > h3, div.spotlight > section.spot3 > h3{
+  font-family: var(--header-font);}
