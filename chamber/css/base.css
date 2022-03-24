@@ -24,16 +24,17 @@ p {
   font-family: var(--header-font);
   font-weight: bold;
 }
+
 h1 {
   font-size: 1em;
 }
 
-h1 > a {
+h1>a {
   text-decoration: none;
   color: white;
 }
 
-h1 > a:hover {
+h1>a:hover {
   color: var(--sage);
 }
 
@@ -53,14 +54,14 @@ header {
   margin: 1px;
 }
 
-.header-logo >a> img {
+.header-logo>a>img {
   margin-left: 10%;
   margin-top: 5%;
   max-width: 4em;
   grid-column: 1;
 }
 
-.social-icons > img {
+.social-icons>img {
   max-width: 2.5em;
 }
 
@@ -68,6 +69,7 @@ header {
   display: flex;
   flex-direction: row;
 }
+
 @media only screen and (max-width: 390px) {
   .social-icons {
     flex-direction: column;
@@ -85,7 +87,8 @@ header {
   font-size: 1rem;
   padding: 5px;
 }
-.container-sitename > a {
+
+.container-sitename>a {
   text-decoration: none;
 }
 
@@ -150,6 +153,7 @@ nav ul.open {
   font-size: 2rem;
   color: #fff;
 }
+
 #hamburburBtn span:nth-child(2) {
   display: none;
 }
@@ -157,6 +161,7 @@ nav ul.open {
 #hamburburBtn.open span:nth-child(1) {
   display: none;
 }
+
 #hamburburBtn.open span:nth-child(2) {
   display: block;
 }
@@ -170,8 +175,8 @@ nav ul.open {
 }
 
 /* ========== BODY BEGIN =================*/
-main > div,
-main > div.hero {
+main>div,
+main>div.hero {
   display: flex;
   flex-direction: column;
   border: 5px solid #eee;
@@ -179,11 +184,11 @@ main > div.hero {
   /* padding-bottom: 100px; */
   margin-top: 2px;
   margin-bottom: 2px;
- /* padding-top: 11px;
+  /* padding-top: 11px;
   padding-left: 12px; */
 }
 
-main > div.hero {
+main>div.hero {
   margin-top: 15px;
   padding-bottom: 0;
   position: relative;
@@ -191,9 +196,10 @@ main > div.hero {
   margin: 0px;
 }
 
-main > div.hero > picture > img {
+main>div.hero>picture>img {
   width: 100%;
 }
+
 img#smallhero {
   height: auto;
   width: 100%;
@@ -202,13 +208,14 @@ img#smallhero {
 img#bighero {
   display: none;
 }
+
 h1#h1w {
   position: absolute;
   margin-left: 60%;
   background-color: var(--sage);
 }
 
-div.weather > section > h2#wehide {
+div.weather>section>h2#wehide {
   display: none;
 }
 
@@ -221,26 +228,26 @@ h2#h2w {
   border-radius: 27px;
 }
 
-h2#h2w > a{
-      color: white;
-    text-decoration: none;
+h2#h2w>a {
+  color: white;
+  text-decoration: none;
 }
 
-div.event > p#eefo {
+div.event>p#eefo {
   margin: 20px;
 }
 
-div.weather > section {
+div.weather>section {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
   margin-left: 10%;
 }
 
-div.weather > p{
+div.weather>p {
   margin: 0;
 }
 
-img#weathericon{
+img#weathericon {
   width: 100%;
 }
 
@@ -248,14 +255,14 @@ img#logwe {
   max-width: 50%;
 }
 
-div.weather > p#wedeg {
-  position: absolute; 
+div.weather>p#wedeg {
+  position: absolute;
   margin-left: 51%;
   margin-top: 25%;
   font-size: 3em;
 }
 
-div.weather > p#wetype {
+div.weather>p#wetype {
   position: absolute;
   margin-left: 51%;
   margin-top: 47%;
@@ -275,18 +282,20 @@ div.spotlight {
   margin-bottom: 1px;
 }
 
-div.spotlight > p {
+div.spotlight>p {
   border: 5px solid #eee;
   padding-bottom: 100px;
   margin: 1px;
   padding-top: 11px;
   padding-left: 12px;
 }
-div.spotlight > section > img {
+
+div.spotlight>section>img {
   width: 58%;
   /*margin-left: 22%;*/
 }
-div.spotlight > section > p {
+
+div.spotlight>section>p {
   text-align: center;
 }
 
@@ -294,9 +303,11 @@ h2 {
   text-align: center;
   font-family: var(--header-font);
 }
+
 p {
   font-family: var(--paragraph-font);
 }
+
 /*========= BODY END =============*/
 
 /*====Footer Begin =============*/
@@ -314,7 +325,7 @@ footer {
   color: white;
 }
 
-footer > div.footer-site-contact > a {
+footer>div.footer-site-contact>a {
   text-decoration: none;
   color: white;
   background: var(--dark-purple);
@@ -323,15 +334,15 @@ footer > div.footer-site-contact > a {
   padding-right: 5px;
 }
 
-footer > div.footer-site-contact > a:hover {
+footer>div.footer-site-contact>a:hover {
   color: var(--sage);
 }
 
-footer > div {
+footer>div {
   padding-bottom: 10px;
 }
 
-.footer-logo > img {
+.footer-logo>img {
   width: 180px;
   padding-top: 5%;
 }
@@ -350,7 +361,8 @@ main.discover {
   max-width: 27em;
   margin: auto;
 }
-main.discover > span {
+
+main.discover>span {
   max-width: 27em;
   margin: auto;
   font-family: var(--paragraph-font);
@@ -358,13 +370,13 @@ main.discover > span {
   padding: 0;
 }
 
-main.discover > div.places > picture > img {
+main.discover>div.places>picture>img {
   width: -webkit-fill-available;
   padding: 0.5em;
   transition: transform 2s ease-in-out;
 }
 
-main.discover > div.places > picture > img:hover {
+main.discover>div.places>picture>img:hover {
   transition: transform 2s ease-in-out;
   position: relative;
   top: -25px;
@@ -376,11 +388,11 @@ main.discover > div.places > picture > img:hover {
   box-shadow: 1px 1px 1px 1px grey;
 }
 
-main.discover > div.places {
+main.discover>div.places {
   padding: 0;
 }
 
-main.discover > div.places > p {
+main.discover>div.places>p {
   padding: 1em;
   padding-top: 0;
   margin: auto;
@@ -496,22 +508,23 @@ form label.top input:required:valid {
   border-radius: 10px;
 }
 
-
-
 @keyframes example {
   0% {
     background-color: var(--chocolate-web);
     font-weight: bold;
   }
+
   25% {
     background-color: var(--sage);
     font-weight: bold;
   }
+
   50% {
     background-color: var(--chocolate-web);
     font-weight: bold;
     font-size: 0.8rem;
   }
+
   100% {
     background-color: var(--sage);
     font-weight: bold;
@@ -519,7 +532,7 @@ form label.top input:required:valid {
 }
 
 /*++++++++Thank YOu+++++++++++*/
-main > div#thankyouforjoining {
+main>div#thankyouforjoining {
   margin: auto;
 
   width: 50%;
@@ -535,7 +548,7 @@ main#demean {
 }
 
 /* -----GRID VIEW------*/
-div.bcards > section > img {
+div.bcards>section>img {
   display: block;
   width: 100%;
   max-width: 200px;
@@ -543,15 +556,15 @@ div.bcards > section > img {
   margin: auto;
 }
 
-div.bcards > section > h2 {
+div.bcards>section>h2 {
   grid-row: 1;
 }
 
-div#defgridview.bcards > section > h2 {
+div#defgridview.bcards>section>h2 {
   text-align: center;
 }
 
-div.bcards > section {
+div.bcards>section {
   border: 5px solid grey;
   display: grid;
 }
@@ -570,16 +583,16 @@ button#listsviewBtn {
   width: 70px;
 }
 
-button#gridviewBtn > span > img ,
-button#listsviewBtn > span > img{
+button#gridviewBtn>span>img,
+button#listsviewBtn>span>img {
   width: 100%;
 }
 
-div#defgridview.bcards.open > section > img {
+div#defgridview.bcards.open>section>img {
   display: none;
 }
 
-div#defgridview.bcards.open > section {
+div#defgridview.bcards.open>section {
   text-align: left;
   border: none;
   box-shadow: none;
@@ -587,41 +600,42 @@ div#defgridview.bcards.open > section {
   border: 1px solid grey;
 }
 
-div#defgridview.bcards.open > section > h2 {
+div#defgridview.bcards.open>section>h2 {
   align-self: flex-start;
   margin-left: 5%;
   text-align: inherit;
 }
 
-div#defgridview.bcards.open > section > p {
+div#defgridview.bcards.open>section>p {
   margin-left: 5%;
 }
+
 div#defgridview.bcards {
   padding-left: 0px;
 }
 
-div#defgridview.bcards.open > section:nth-child(even){
+div#defgridview.bcards.open>section:nth-child(even) {
   background-color: rgba(0, 132, 255, 0.1);
 }
-div#defgridview.bcards.open > section:nth-child(odd){
+
+div#defgridview.bcards.open>section:nth-child(odd) {
   background-color: rgba(255, 251, 0, 0.2);
 }
 
-main.maincon{
+main.maincon {
   grid-template-columns: repeat(4, 1fr);
 }
-main > div.contact-main2 { 
-      display: block;
-    grid-column: 3;
-    border: 0;
+
+main>div.contact-main2 {
+  display: block;
+  grid-column: 3;
+  border: 0;
 }
 
-
-main > div.contact-main { 
-      display: block;
-    grid-column: 2;
-    border: 0;
-
+main>div.contact-main {
+  display: block;
+  grid-column: 2;
+  border: 0;
 }
 
 main#demean {
@@ -629,23 +643,23 @@ main#demean {
   font-weight: bold;
 }
 
-div#defgridview.bcards.open > section > a {
+div#defgridview.bcards.open>section>a {
   margin-left: 5%;
-  
 }
 
-div#defgridview.bcards > section > a {
+div#defgridview.bcards>section>a {
   padding-bottom: 5%;
 }
 
-h6{
-  display: none;
-}
-
-div.spotlight > section.spot1 > a, div.spotlight > section.spot2 > a, div.spotlight > section.spot3 > a{
+div.spotlight>section.spot1>a,
+div.spotlight>section.spot2>a,
+div.spotlight>section.spot3>a {
   font-family: var(--paragraph-font);
   font-weight: bold;
 }
 
-div.spotlight > section.spot1 > h3, div.spotlight > section.spot2 > h3, div.spotlight > section.spot3 > h3{
-  font-family: var(--header-font);}
+div.spotlight>section.spot1>h3,
+div.spotlight>section.spot2>h3,
+div.spotlight>section.spot3>h3 {
+  font-family: var(--header-font);
+}
