@@ -298,13 +298,13 @@ div#chamber-meeting-invite {
     font-size: 2rem;
 }
 
-
+/*
 section#spotlight1.biz, section#spotlight2.biz, section#spotlight3.biz{
   text-align:none;}
   
   h3#bizname{
   text-align:none;
-}
+}*/
 
 div.spotlight{
   border: 5px solid #eee;
