@@ -253,7 +253,7 @@ section.spot1, section.spot2, section.spot3{
 }
 
 
-section.spot1 > a, section#spot2 > a, section.spot. > a{
+section.spot1 > a, section.spot2 > a, section.spot > a{
   font-family: var(--paragraph-font);
   font-weight:bold;
 }
