@@ -43,11 +43,11 @@ function displaySpotlight(goldbusiness, index) {
   logo.setAttribute("class", "logo");
 
   // Change the innerHTML property of the h3 element to contain the business' info
-  h3.innerHTML = `${goldbusiness.bizname}`;
+  h3.innerHTML = `${goldbusiness.name}`;
   p1.innerHTML = `${goldbusiness.phone}`;
-  p3.innerHTML = `${goldbusiness.address} <br> ${goldbusiness.city} ${goldbusiness.zip}`;
+  p3.innerHTML = `${goldbusiness.address}`;
   p4.innerHTML = `<a href="${goldbusiness.website}">website</a>`;
-  mem.innerHTML = `${goldbusiness.membership} sponsor`;
+  mem.innerHTML = `${goldbusiness.membership}`;
 
   // Add/append the section(card) with the h2 element
 
