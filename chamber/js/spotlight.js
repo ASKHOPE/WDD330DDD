@@ -1,4 +1,4 @@
-const /*requestURL*/ spotlightData = "https://askhope.github.io/wdd230/chamber/data/data.json";
+const spotlightData = "https://askhope.github.io/wdd230/chamber/data/data.json"; /*requestURL*/ 
 /*
 fetch(requestURL)
   .then(function (response) {
