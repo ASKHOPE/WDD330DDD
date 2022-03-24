@@ -60,7 +60,7 @@ function displaySpotlight(business, card) {  // Create elements to add to the do
     let p1 = document.createElement('p');
     let p2 = document.createElement('p');
     let p3 = document.createElement('p');
-    let p4 = document.createElement('p');
+    //let p4 = document.createElement('p');
     let a = document.createElement('a');
   
     // Change the textContent property of the h2 element to contain the business name
