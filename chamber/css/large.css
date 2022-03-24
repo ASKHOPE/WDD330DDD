@@ -131,14 +131,11 @@
     height: auto;
   }
   h1#h1w {
-    /*position: absolute;*/
     font-size: 2em;
     background-color: var(--sage);
   }
   h2#h2w {
-    /*position: relative;
-    margin-left: 68%;
-    margin-top: 61%;*/
+
     padding: 1em;
     background: var(--chocolate-web);
     border-radius: 27px;
@@ -217,8 +214,8 @@
 
   main > div.spotlight {
     flex-direction: column;
-        border: 5px solid #eee;
-            height: fit-content;
+    border: 5px solid #eee;
+    height: fit-content;
   }
 
   div.spotlight > #s23 {
@@ -229,17 +226,10 @@
     display: block;
   }
 
-
-
-
-main.join-main > form > fieldset:nth-child(3) {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-
-
-
+  main.join-main > form > fieldset:nth-child(3) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   /* =====================Footer===================*/
   .footer-logo > img {
@@ -278,86 +268,71 @@ main > div#thankyouforjoining {
     grid-template-columns: 1fr 1fr 1fr;
   }
   div#defgridview.bcards.open {
-    grid-template-columns: repeat(4,1fr);
-}
-div#defgridview.bcards.open > section {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  div#defgridview.bcards.open > section {
     display: grid;
     grid-column: 1/5;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
+  }
 }
 
 /* -----LIST VIEW --------*/
 
-
-
-
 div#chamber-meeting-invite {
-    background-color: var(--chocolate-web);
-    text-align: center;
-    font-size: 2rem;
+  background-color: var(--chocolate-web);
+  text-align: center;
+  font-size: 2rem;
 }
 
-/*
-section#spotlight1.biz, section#spotlight2.biz, section#spotlight3.biz{
-  text-align:none;}
-  
-  h3#bizname{
-  text-align:none;
-}*/
-
-div.spot{
+div.spot {
   border: 5px solid #eee;
 }
 
-
 section.spot1 {
-    
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;}
-
-div.join{
-      height:10em;
-      height: auto;
-    }
-div.event{
-      height: auto;
-    width: auto;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 
-div.weather{
-      width: auto;
-    height: auto;
+div.join {
+  height: 10em;
+  height: auto;
+}
+div.event {
+  height: auto;
+  width: auto;
 }
 
-div.news{
-      padding: 0;
-    margin: 0;
-    height: auto;
+div.weather {
+  width: auto;
+  height: auto;
 }
 
-section.spot3{
-  display:block;
+div.news {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+section.spot3 {
+  display: block;
 }
 
 @media only screen and (max-width: 1200px) {
-  section.spot3{
-  display:none;
-}
+  section.spot3 {
+    display: none;
+  }
 
-img#weathericon{
-      width: 50%;
+  img#weathericon {
+    width: 50%;
     margin: auto;
-}
-}
-
-img.logo{
-  width:50%;
+  }
 }
 
+img.logo {
+  width: 50%;
+}
 
-
-
-div.news >h2{
+div.news > h2 {
   margin-bottom: 0px;
 }
