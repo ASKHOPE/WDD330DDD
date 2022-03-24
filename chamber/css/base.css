@@ -638,3 +638,6 @@ div#defgridview.bcards > section > a {
   padding-bottom: 5%;
 }
 
+h6{
+  display: none;
+}
