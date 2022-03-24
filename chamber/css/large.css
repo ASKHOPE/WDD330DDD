@@ -191,7 +191,7 @@
 
   @media only screen and (min-width: 1589px) {
     main > div.news {
-      border-top-width: 3em;
+      border-top-width: 2.5em;
     }
   }
 
@@ -212,7 +212,7 @@
 
   div.spotlight > section > img {
     width: 50%;
-    margin-left: 22%;
+    /* margin-left: 22%; */
   }
 
   main > div.spotlight {
@@ -297,12 +297,27 @@ div#chamber-meeting-invite {
 }
 
 
+section#spotlight1.biz, section#spotlight2.biz, section#spotlight3.biz{
+  text-align:none;}
+  
+  h3#bizname{
+  text-align:none;
+}
+
+div.spotlight{
+  border: 5px solid;
+}
+
 
 #spotlight1 {
     
     grid-column: 1 / 2;
     grid-row: 1 / 2;}
 
+div.join{
+      height:10em;
+      height: auto;
+    }
 div.event{
       height: auto;
     width: auto;
@@ -310,6 +325,12 @@ div.event{
 
 div.weather{
       width: auto;
+    height: auto;
+}
+
+div.news{
+      padding: 0;
+    margin: 0;
     height: auto;
 }
 

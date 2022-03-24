@@ -48,7 +48,7 @@
   main {
     display: grid;
     /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
-    grid-template-rows: 1fr 0.6fr 1fr 0.4fr 0.5fr;
+    /*grid-template-rows: 1fr 0.6fr 1fr 0.4fr 0.5fr;*/
   }
 
   main > div.hero {
@@ -228,6 +228,11 @@ div.event{
       height: 20em;
     width: 59em;
 }
+div.news{
+  height: 20em;
+      padding: 2em;
+    font-size: 1.2rem;
+}
 
 div.weather{
       width: 10em;
@@ -236,4 +241,17 @@ div.weather{
 
 #spotlight3{
   display:none;
+}
+h3#bizname{
+  text-align:center;
+}
+
+
+section#spotlight1.biz, section#spotlight2.biz, section#spotlight3.biz{
+  text-align:center;}
+
+
+section#spotlight1.biz > a, section#spotlight2.biz > a, section#spotlight3.biz > a{
+  font-family: var(--paragraph-font);
+  font-weight:bold;
 }

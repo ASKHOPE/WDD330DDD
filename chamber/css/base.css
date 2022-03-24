@@ -284,7 +284,7 @@ div.spotlight > p {
 }
 div.spotlight > section > img {
   width: 58%;
-  margin-left: 22%;
+  /*margin-left: 22%;*/
 }
 div.spotlight > section > p {
   text-align: center;
