@@ -217,6 +217,8 @@
 
   main > div.spotlight {
     flex-direction: column;
+        border: 5px solid #eee;
+            height: fit-content;
   }
 
   div.spotlight > #s23 {
@@ -305,7 +307,7 @@ section#spotlight1.biz, section#spotlight2.biz, section#spotlight3.biz{
 }
 
 div.spotlight{
-  border: 5px solid;
+  border: 5px solid #eee;
 }
 
 
