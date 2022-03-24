@@ -69,7 +69,7 @@ function displaySpotlight(business, card) {  // Create elements to add to the do
     // Add/append the section(card) with the h2 element
     card.appendChild(h3);
     // Change the src and alt properties of the img1 element to contain the business icon
-    img1.src = `${business.icon}`;
+    img1.src = `${business.logourl}`;
     img1.setAttribute('alt', `${business.name} icon`);// Set the alternate text on the img1 
     img1.setAttribute('loading', 'lazy');
     card.appendChild(img1);
