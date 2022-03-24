@@ -344,4 +344,9 @@ div.news{
   #spotlight3{
   display:none;
 }
+
+img#weathericon{
+      width: 50%;
+    margin: auto;
+}
 }

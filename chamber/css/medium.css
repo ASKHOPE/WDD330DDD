@@ -248,10 +248,16 @@ h3#bizname{
 
 
 section#spotlight1.biz, section#spotlight2.biz, section#spotlight3.biz{
-  text-align:center;}
+  text-align:center;
+      border: 5px solid #eee;
+}
 
 
 section#spotlight1.biz > a, section#spotlight2.biz > a, section#spotlight3.biz > a{
   font-family: var(--paragraph-font);
   font-weight:bold;
+}
+
+section#spotlight1.biz >img,section#spotlight2.biz > img{
+  width: 40%;
 }
