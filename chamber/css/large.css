@@ -295,3 +295,10 @@ div#chamber-meeting-invite {
     text-align: center;
     font-size: 2rem;
 }
+
+
+
+#spotlight1 {
+    width: 215px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;}
