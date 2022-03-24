@@ -1,4 +1,4 @@
-[
+{ "data" :[
   {
     "name": "Barri Mobiles",
     "phone": "+919876543210",
@@ -108,3 +108,4 @@
     "membership": "Silver"
   }
 ]
+}
