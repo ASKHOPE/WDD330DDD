@@ -16,7 +16,7 @@ fetch(requestURL)
     const localbusiness = jsonObject["data"];
     // localbusiness.forEach(displayBusiness);
     let spotlightbusiness = localbusiness.filter(
-      (x) => x.membership === "gold" || x.membership === "silver"
+      (x) => x.membership === "Gold" || x.membership === "Silver"
     );
     spotlightbusiness.sort((a, b) => 0.5 - Math.random());
     let goldbusiness = spotlightbusiness.filter((x, index) => index < 3);
