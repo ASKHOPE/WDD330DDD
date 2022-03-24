@@ -306,12 +306,12 @@ section#spotlight1.biz, section#spotlight2.biz, section#spotlight3.biz{
   text-align:none;
 }*/
 
-div.spotlight{
+div.spot{
   border: 5px solid #eee;
 }
 
 
-#spotlight1 {
+section.spot1 {
     
     grid-column: 1 / 2;
     grid-row: 1 / 2;}
@@ -336,12 +336,12 @@ div.news{
     height: auto;
 }
 
-#spotlight3{
+section.spot3{
   display:block;
 }
 
 @media only screen and (max-width: 1200px) {
-  #spotlight3{
+  section.spot3{
   display:none;
 }
 
@@ -349,4 +349,15 @@ img#weathericon{
       width: 50%;
     margin: auto;
 }
+}
+
+img.logo{
+  width:50%;
+}
+
+div.news > p{padding:5%;}
+
+
+div.news >h2{
+  margin-bottom: 0px;
 }

@@ -179,8 +179,8 @@ main > div.hero {
   /* padding-bottom: 100px; */
   margin-top: 2px;
   margin-bottom: 2px;
-  padding-top: 11px;
-  padding-left: 12px;
+ /* padding-top: 11px;
+  padding-left: 12px; */
 }
 
 main > div.hero {
@@ -641,3 +641,5 @@ div#defgridview.bcards > section > a {
 h6{
   display: none;
 }
+
+

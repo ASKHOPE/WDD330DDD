@@ -239,7 +239,7 @@ div.weather{
     height: 20em;
 }
 
-#spotlight3{
+section.spot3{
   display:none;
 }
 h3#bizname{
@@ -247,17 +247,17 @@ h3#bizname{
 }
 
 
-section#spotlight1.biz, section#spotlight2.biz, section#spotlight3.biz{
+section.spot1, section.spot2, section.spot3{
   text-align:center;
       border: 5px solid #eee;
 }
 
 
-section#spotlight1.biz > a, section#spotlight2.biz > a, section#spotlight3.biz > a{
+section.spot1 > a, section#spot2 > a, section.spot. > a{
   font-family: var(--paragraph-font);
   font-weight:bold;
 }
 
-section#spotlight1.biz >img,section#spotlight2.biz > img{
+section.spot1 >img,section.spot2 > img{
   width: 40%;
 }
