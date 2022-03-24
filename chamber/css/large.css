@@ -299,6 +299,26 @@ div#chamber-meeting-invite {
 
 
 #spotlight1 {
-    width: 215px;
+    
     grid-column: 1 / 2;
     grid-row: 1 / 2;}
+
+div.event{
+      height: auto;
+    width: auto;
+}
+
+div.weather{
+      width: auto;
+    height: auto;
+}
+
+#spotlight3{
+  display:block;
+}
+
+@media only screen and (max-width: 1200px) {
+  #spotlight3{
+  display:none;
+}
+}

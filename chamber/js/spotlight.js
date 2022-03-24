@@ -86,11 +86,11 @@ function displaySpotlight(business, card) {  // Create elements to add to the do
     a.target = "_blank";
     a.textContent = `${business.website}`;
     // Add/append the section(card) with the a element
-    //card.appendChild(a);
+    card.appendChild(a);
     // Change the textContent property of the p3 element to contain the business contact email
     //p3.textContent = `${business.email}`;
     // Add/append the section(card) with the p3 element
-   // card.appendChild(p3);
+    // card.appendChild(p3);
   } 
 
 function findSpotlight(business) {  // Create elements to add to the document

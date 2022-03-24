@@ -224,3 +224,16 @@ main.maincon{
   grid-template-rows: auto;
 }
 
+div.event{
+      height: 20em;
+    width: 59em;
+}
+
+div.weather{
+      width: 10em;
+    height: 20em;
+}
+
+#spotlight3{
+  display:none;
+}
