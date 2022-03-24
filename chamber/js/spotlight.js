@@ -13,7 +13,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     //  temporary checking for valid response and data parsing
-    const localbusiness = jsonObject["localbusiness"];
+    const localbusiness = jsonObject["data"];
     // localbusiness.forEach(displayBusiness);
     let spotlightbusiness = localbusiness.filter(
       (x) => x.membership === "gold" || x.membership === "silver"
