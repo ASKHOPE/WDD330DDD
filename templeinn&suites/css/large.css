@@ -1,0 +1,122 @@
+@media only screen and (min-width: 800px) {
+  header {
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  div.logo-container {
+    margin-left: 55%;
+  }
+  div.social-header {
+    width: 80%;
+  }
+
+  div#spotlight-temple-details > p {
+    font-size: 1.3em;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  div.reserveForm {
+    margin: auto;
+    width: 40%;
+  }
+
+  div.reservations {
+    width: 65%;
+    margin: auto;
+  }
+
+  .contact-us-page > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+        grid-gap: 5%;
+  }
+
+  /*Form for Contact us*/
+  section.contact-us-page > div > form {
+    grid-row: 1;
+    grid-column: 2;
+    margin: auto;
+  }
+
+  /*Maps for contact us */
+  section.contact-us-page > div > div {
+    grid-row: 1;
+    grid-column: 3;
+  }
+  nav {
+    width: 90%;
+  }
+
+  .persInfo,
+  .dateInfo,
+  .addInfo {
+    padding-left: 5%;
+  }
+
+
+  main{
+    max-width:80%;
+  }
+
+  a.left{
+    margin-left:15%;
+  }
+  a.right{
+    margin-left: 57%;
+  }
+
+
+  div.view-xl-map{
+      display:none;
+    }
+
+  @media only screen and (min-width: 1200px){
+    div.view-xl-map{
+      display:block;
+    }
+
+    fieldset#contact-form-2.persInfo{
+      font-size:1.3em;
+    }
+    
+
+  main > section.contact-us-page > div {
+    font-size: 1em;
+    grid-gap: 0%;
+}
+  }
+
+img#amenities-img{
+width: 100%;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+ img#services-img{
+   width:100%;
+ }
+
+div.services-container{
+      display: grid;
+      grid-template-columns: 50% 50%;
+}
+div.amenities-container{
+   display: grid;
+      grid-template-columns: 50% 50%;
+}
+
+div.subpages-services{
+  display: flex;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+}
+}
