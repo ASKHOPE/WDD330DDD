@@ -538,7 +538,7 @@ div.menu2 > img,
 div.menu3 > img {
   margin: auto;
   text-align: center;
-  width: 80%; /*100*/
+  width: 60%; /*100*/
 }
 
 div.images-suites {
